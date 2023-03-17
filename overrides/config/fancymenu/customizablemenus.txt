@@ -1,0 +1,14 @@
+type = customizablemenus
+
+iafenvoy.accountswitcher.gui.AccountScreen {
+}
+
+net.minecraft.class_435 {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_490 {
+}
+
