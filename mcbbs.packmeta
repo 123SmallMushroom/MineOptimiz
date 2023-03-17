@@ -1,0 +1,4172 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 2,
+  "name": "v1.17.1-0.7.13-Hotfix3",
+  "version": "0.7.13-Hotfix3",
+  "author": "Small__Mushroom",
+  "description": "",
+  "fileApi": "",
+  "url": "",
+  "forceUpdate": false,
+  "origin": [],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.17.1"
+    },
+    {
+      "id": "fabric",
+      "version": "0.14.17"
+    }
+  ],
+  "libraries": [],
+  "files": [
+    {
+      "path": "config/.puzzle_cache/mojangstudios.png",
+      "hash": "0669207ff6b3119dbee6e8d093aeb87487f09e2c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/betterfpsdist.json",
+      "hash": "a8a3ac914621f57e3e1f123526fe029b30559988",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/c2me.toml",
+      "hash": "67b2c919975ee14e010184ba39de98891ddef635",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/capes.json5",
+      "hash": "863fe20edcfc79943131b40ddd7c7cb10face200",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/carpet/default_carpet.conf",
+      "hash": "0860e9a35352a53e7a23998d1f0dbaac18b5ca2e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/carpet/default_magiclib.conf",
+      "hash": "a035ff2c8d501e516e676c3a5d968799086842ca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/chat_heads.json5",
+      "hash": "a8bef8d26d7930b9348b8469e50c55ce8ddbf874",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/citresewn.json",
+      "hash": "23d5c0f132d5f480258ad0bf9456e5e883e1acd1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/clienttweaks.toml",
+      "hash": "8381563be4e2d25c50721c6ee579c857c08c70bb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/continuity.json",
+      "hash": "a273e48bc18aff0a6ec4c14046faa0f718df70bc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/cull-less-leaves.json",
+      "hash": "e0c414cdcef4fa93e0e6ea5c0da46b9a4c3950f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/cullleaves.json",
+      "hash": "e606b2718d93c8415183c4604e3f9ef9281c5b8f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/customsplashscreen/background.png",
+      "hash": "49cc398f4b05265e62202fd568b45bb32bf15ff2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/customsplashscreen/mojangstudios.png",
+      "hash": "0669207ff6b3119dbee6e8d093aeb87487f09e2c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/customsplashscreen/mojank.png",
+      "hash": "224f5accc994c39fc9f76a3fd5e9296c6fa6cbe8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/customsplashscreen/progressbar.png",
+      "hash": "dbe4f35efdfc71d1f2a9be95b403f24bf84098f2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/customsplashscreen/progressbar_background.png",
+      "hash": "c5bbb3fbc2a559f1ae3b363fe0f648c84990933a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/customsplashscreen.json5",
+      "hash": "71c5cbfae425be2975777a2bd222b060321e4e80",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/dashloader.json",
+      "hash": "03e6116c8b1d488bac2e096bd90f537e31bddc0f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/debugify-descriptions.json",
+      "hash": "ae013b0f0252f4f27e5a12f634caf8ec523528a3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/debugify.json",
+      "hash": "ee8efe0314d08482d280c2a43a99933e568fd303",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/enhanced_bes.properties",
+      "hash": "e2d2543494a82554637fa6ded3ab9c7e06b8a3c1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/entityculling.json",
+      "hash": "91e0e8ee93752a03681e1a3fd51c54bc6bcf76cf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/exordium.json",
+      "hash": "ff4f86ea1b262095ea797caecdadea1f374d7b38",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fabric/indigo-renderer.properties",
+      "hash": "115b86f7cf321b8cb685328cafe9a5cc15ab01d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fabrictailor.json",
+      "hash": "4caad0e28519a3f16685e8adce48f1bfc5bead2c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fabrishot.properties",
+      "hash": "f859b7061a5f8a0897ae79318bf34de0b8fa291c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/config.txt",
+      "hash": "f894b07276c082a7987ac8d990c9f47045191ad0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "hash": "1858a0586d0ae8358e5e41ee882ac6e3625503c4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/hhhhh.txt",
+      "hash": "b3054a26dc81b20935227d5f33af5d0bd743e167",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/hhhhhhhhhhhhhhhh.txt",
+      "hash": "0f18b9042ff47613acde0f6293918ddffbcbec67",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/old version.txt",
+      "hash": "8a706a14438e63ec04e4b385c5a2be07835f7b0e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/old version_1080p.txt",
+      "hash": "49159c206638fc6e83d05c9c05db44e4e8ae0f8b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/old version_960x576.txt",
+      "hash": "3e3ec3bd13c59117d435d374fb1c94ea1f4c6998",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/类网易.txt",
+      "hash": "11b8eda77fbbb7f8e92027845ff644109b6a8f44",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/类网易esc菜单.txt",
+      "hash": "f8e61e160fce47cd447bee8ad8dbb3608e8f8ec9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/默认（1920x1080）.txt",
+      "hash": "12cb24c41ac8b3d016b5a035d7aad1d61e092d08",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/.disabled/默认（1920x1080）_1.txt",
+      "hash": "a16bfbd53a89b76efc541de868e451dcee1a3062",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/hhh.txt",
+      "hash": "64a0cdd91625370deeb277d9fb6fed91cf3e2b0b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/hhhhh.txt",
+      "hash": "b3054a26dc81b20935227d5f33af5d0bd743e167",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/hhhhhhhhhhhhhh.txt",
+      "hash": "62fdb949afebbe05995a9a0bf6ef0ed865ebae24",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/hhhhhhhhhhhhhhh.txt",
+      "hash": "c14f8dda6f78d07d86e0019c153b96869c00ae35",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/hhhhhhhhhhhhhhhhhhh.txt",
+      "hash": "06a833c54efdf9bd38cfcb33129e505df19902b6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/login.txt",
+      "hash": "3bc5f1b7a0b1f35f489c17bf2fd145e60638068e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/old version_1080p.txt",
+      "hash": "49159c206638fc6e83d05c9c05db44e4e8ae0f8b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/customization/默认（窗口化）.txt",
+      "hash": "84cccce4b2240449f42b4667bdc5abc5697aed13",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/locals/de_de.local",
+      "hash": "c16e604ae52662778ad19a723f0b70267f7e1e9c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/locals/en_us.local",
+      "hash": "502e929d37c01159130bbd0db1af23611e59aba2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/locals/pl_pl.local",
+      "hash": "7092c585b0bad0e35fe7b99d34557d1027ed3b76",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/locals/pt_br.local",
+      "hash": "650af0cdd577246b235523400d11892322c86c44",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/locals/zh_cn.local",
+      "hash": "d113821a8539fae2f774223a4136d42e9b0d0930",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/menu_identifiers.db",
+      "hash": "c000cc5ba4e947854ff21c15bf71e6c611823488",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "hash": "3eeef87ee5e7b978339ad53e5e97deecc694b849",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/fastquit-config.txt",
+      "hash": "bb1cbcbb4fd67cc73ecb7977af69d84ff93db17b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/forcecloseloadingscreen.json",
+      "hash": "aaa6b0540c7d6f11eacc87590d4714af932d5b34",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/i18nupdatemod.toml",
+      "hash": "1825c4b229b4190fe7b6bc04c08f9dbe08d8948f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "hash": "bcf84daab40c317754f73e510820d8d328a27edd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/indium-renderer.properties",
+      "hash": "b6af59de275b7351abcf60043fc0c5c5acac3838",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ingameime.json",
+      "hash": "e5b59d29657bc4ab494295df35c00da4b6e817f4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+      "hash": "2bedb4d58a778b937dd9da01c50a46af9887709b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/inventoryprofilesnext/inventoryprofiles.json",
+      "hash": "8d02f756c17f33ebe39b188901ecb54df76e1560",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/iris.properties",
+      "hash": "25b1413800dd1eb53ee0080d547e072e9c163c19",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jumpquilt.json",
+      "hash": "e1b68ececffa3f5ebe4d85edcf5522719f4b9002",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/konkrete/locals/de_de.local",
+      "hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "hash": "42badc338e767559db38a67bd3e8020a92000e56",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/lambdabettergrass.toml",
+      "hash": "7901567b8568fd4a9c4d8fa16d74bf3cebfc72af",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/lambdynlights.toml",
+      "hash": "6ab114ba1fdd9c8e25bad558c98a3ebad5a6a60a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/languagereload.json",
+      "hash": "ed777f1854766844c1444d0bfc5a9540ad687625",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_106.12.142.44_41576.json",
+      "hash": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_106.12.142.44_41576_dim_minecraft_overworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_106.12.142.44_41576_dim_minecraft_smallmushroomovo.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_106.12.142.44_41576_dim_minecraft_the_nether.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_127.0.0.1_28103.json",
+      "hash": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_127.0.0.1_28103_dim_minecraft_smallmushroomovo.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_43.139.190.143_42884.json",
+      "hash": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_43.139.190.143_42884_dim_minecraft_overworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_43.139.190.143_42884_dim_minecraft_smallmushroomovo.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_aeschylus.1Sky.cloud.json",
+      "hash": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_aeschylus.1Sky.cloud_dim_minecraft_overworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103.json",
+      "hash": "040143e11c6eef0f77f06961d936f6033ccbc9bb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103_dim_minecraft_dating.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103_dim_minecraft_overworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103_dim_minecraft_parkorev1.1.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103_dim_minecraft_skycityworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103_dim_minecraft_smallmushroomovo.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_ddns.ganshity.top_28103_dim_minecraft_the_nether.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_mc233.cn.json",
+      "hash": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_mc233.cn_dim_minecraft_overworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_mc233.cn_dim_minecraft_the_nether.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_skin_test.json",
+      "hash": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica/litematica_skin_test_dim_minecraft_overworld.json",
+      "hash": "408e491552f7aa897a2b033695c059f16a0e7d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/litematica.json",
+      "hash": "3a843026a5d47a7eeaaa5cbb75634de2619be452",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/lithium.properties",
+      "hash": "ebc1958f55feac49bafc471d0451ee788a7bef21",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/magiclib.json",
+      "hash": "4cfc0a71a94500338fd767008b6273718a0a9bb0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/malilib.json",
+      "hash": "6da549698151ad69956fdeea5fac49a4b90d90bf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/masa_gadget_mod.json",
+      "hash": "9acef455933fcb269a8036c8aaf5c69785f18789",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/midnightlib.json",
+      "hash": "d280a7026524ae95864bae0638691f87c626c7b3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/modmenu.json",
+      "hash": "4ace24974c9ef32aece22a261c15bdf9dbf77f6d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/moreculling.toml",
+      "hash": "802469fc930897f97a274267f104abd9fe388669",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/config.yml",
+      "hash": "6b29e5c1b2209e78d1ea1d812999062d5eac2b7d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/configs/example.yml",
+      "hash": "4b039fcec011d74dec3dd8dfc087f226b412a41d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/frps/MossFrpProcess.jar",
+      "hash": "cdb552fcce2ce7b0cdd36d8a66ef56b2fd006e65",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/languages/en_us.yml",
+      "hash": "b747020f8e114227ee6ef8ef2afe9fe2c7745005",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/languages/zh_cn.yml",
+      "hash": "f35a4b777faf93b3e798e00765a6998c9066ec40",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-1-25-19-49-36.yml",
+      "hash": "4dd1fca2d50a6ac9df164fb557c0d09e4e761682",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-1-12-29-3.yml",
+      "hash": "3e6861590d80e49f97abf83b9c327d87c2832dcf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-1-12-59-30.yml",
+      "hash": "8a3989af83b62b8ef579f8685b5d79be1a5464a0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-1-16-9-52.yml",
+      "hash": "d7e181929960ab7ba80fce8ae0dc2871f31190ef",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-1-22-0-49.yml",
+      "hash": "e803d8728fda4a5993b601c2c899a9eba14f43e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-10-22-48-55.yml",
+      "hash": "8a984e0de1a684a5bb8687c7c9efb06badebce8b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-10-22-58-7.yml",
+      "hash": "2fb4c9af85430bb9aa75b9cd0a044935ff0d5dbc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-10-23-9-56.yml",
+      "hash": "0544a2def7c1dc123fd6c23446fcc4fdc060e7e0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-11-13-4-54.yml",
+      "hash": "29d6700839adcd70979eaf9dd4cf2d2c53cf4f0f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-11-22-48-42.yml",
+      "hash": "e05fc4db5532b959159edd43edaa0acb8837fb15",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-11-23-1-49.yml",
+      "hash": "20b70381e3a9905055de8372d6d703b341127798",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-11-23-13-26.yml",
+      "hash": "2c91ba964cf1b5e8c1dac1a0774508719196dbc2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-11-8-11-15.yml",
+      "hash": "cab52fdd490a33059ca71f63092ac6bbbc5fb8c7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-11-8-24-27.yml",
+      "hash": "880e6d270a66c5b8a6b8c1361b31ff6a25e74e9e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-17-22-37-10.yml",
+      "hash": "fdfabe8b8bded9e5d72d225806bb4dc3df7ced56",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-17-23-17-17.yml",
+      "hash": "e85aee5899c95ff4a51fca28f33ad45284143a8e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-17-23-43-2.yml",
+      "hash": "cbb9fe762ca0ce21d4670ebdd34a63ce8fee87e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-10-10-58.yml",
+      "hash": "f5e1365e5a0b3afb0784dad84001f00b644b2c8e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-12-34-23.yml",
+      "hash": "7c1e29485a01b73038811367497433d303ff97aa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-12-47-36.yml",
+      "hash": "c2893abbf6dd128901c0e9ab1ac3611c28bb3a8f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-16-30-24.yml",
+      "hash": "dde552dab5c6ce04870f8aefed49b2dab791cd48",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-17-18-7.yml",
+      "hash": "77e9e6a912ef4b36ebc5d5ee48c1c9174a143fe2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-8-12-50.yml",
+      "hash": "b69f4af4978f86e04958fcfcb37466c6e44719f0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-8-22-0.yml",
+      "hash": "23e2d8e2906859163c0c7c97701d51a4fa5dd853",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-18-8-6-3.yml",
+      "hash": "b104a5b364fbd8d007466cb3380845f4e541a472",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-19-12-31-22.yml",
+      "hash": "9b3874135a69bd3f505a9e4a9a9ad365dcafc05b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-19-12-52-35.yml",
+      "hash": "08c3ca66607cf4228dff2fbd7d89f6dc0d9a459a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-19-13-30-44.yml",
+      "hash": "04a2606ec24c90036ce0926d1d961f62de71fd10",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-19-14-30-25.yml",
+      "hash": "786836714ee929bb2c49c134f1a1fea383b55e3f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-19-14-34-10.yml",
+      "hash": "b63eb3673ef562f993f2817f334da73040bc601b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-19-15-22-23.yml",
+      "hash": "7726ba005fc8233dee510109729f173d0676dbb5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-2-13-23-29.yml",
+      "hash": "c8cfa119a7fb36b1ed060676d529941d5cc80916",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-17-49-42.yml",
+      "hash": "b552f2ee59707e601675928ee0b5e11dfedbc838",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-17-54-0.yml",
+      "hash": "c07177dfa5eaa549acd4aa67c018abf456d1630b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-18-32-10.yml",
+      "hash": "314f2a6403d2086120667f75e143e21d982dd49a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-18-40-30.yml",
+      "hash": "fcb485bb8517bb2bf89e35f47bd3b160905960d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-19-38-37.yml",
+      "hash": "82bb27302f0695d37e1176f89b27f4e5cae11d53",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-20-12-52.yml",
+      "hash": "3ecc4548dcff8efe127d40262d0cc10e26b35b49",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-20-7-24.yml",
+      "hash": "68fc796cd6d768420372510d533f00226e90b57d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-20-8-54.yml",
+      "hash": "3adcd45348926b35f199902b5986fa1ca7709fc0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-21-17-55.yml",
+      "hash": "ba266ceac4a8a7f00ac058023588596b4b20c45c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-21-23-44.yml",
+      "hash": "ce88098739f11104bc5125ee54fd14a7f78dac4d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-24-21-26-27.yml",
+      "hash": "f98fe1e1026fa0750001c2b47ed6adcbd92c105c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-25-21-54-17.yml",
+      "hash": "4d73adebf865f4b0a199111f4eb2262d89aa9938",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-25-23-29-27.yml",
+      "hash": "d07ece2c0c46e9aa100918cd79c0699a329318c1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-26-14-54-38.yml",
+      "hash": "d5ba4aa68694eefba7bed0a0e61fe748f1b6ebb3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-26-15-11-34.yml",
+      "hash": "df08cfcc33f9162b9db9f92e92ba308f97725986",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-26-16-21-54.yml",
+      "hash": "0f95f2ab8c493530bbc6be106de6b50b8ee75b44",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-26-16-7-4.yml",
+      "hash": "2e541a62a86d24b8b6c38847c75a13addc22ed95",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-26-7-20-7.yml",
+      "hash": "8114f3551020aa5e1e32023e5f1262b304d73156",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-3-12-42-42.yml",
+      "hash": "af42a0178317a8c90a753f23fc06dd390300379d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-3-16-46-59.yml",
+      "hash": "6a221fa09e03311e5a54d094d379889bca7aca8d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-3-18-47-58.yml",
+      "hash": "0e4b50f67e9a0b6fad26a137a12254c1b1b66c21",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-3-20-30-39.yml",
+      "hash": "689f6da16e0e29d6463e9737bf83dc0145059cca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-3-21-31-52.yml",
+      "hash": "edd04da39fa4d9a816fbcacb2b34871dbd019ba7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-12-49-36.yml",
+      "hash": "6fa7df9377ccc8688f6d0918129a9c1d421e43af",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-13-12-41.yml",
+      "hash": "ea0761d2a004a36690674ec7397a5cec77614104",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-13-56-10.yml",
+      "hash": "1f0048f49e8a9ba70fcc5ec4ede1871bb718707b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-17-56-8.yml",
+      "hash": "55ece44b06e7038dc8dcd9a877dd4dd86e193359",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-18-5-29.yml",
+      "hash": "b3902882942e71e77bb18a4cbb3fc6a971149e32",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-19-11-9.yml",
+      "hash": "eb368d9289d4862f1e506122aab5977092797839",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-20-29-48.yml",
+      "hash": "a51aec92e6876a31d26c62c653686c6e4e91d373",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-21-10-26.yml",
+      "hash": "ff746a18b227aaf1bf0eeb4e44ccc8f60907fe76",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-4-21-6-53.yml",
+      "hash": "c64908291f2a56f59309648996a74f8728362ad0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-5-11-14-15.yml",
+      "hash": "2947db1bef50b5693c21137f0089844825d0975f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-5-11-19-40.yml",
+      "hash": "7193c98439c2da5151fc67f41ad100be52c4fab9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-2-5-9-31-42.yml",
+      "hash": "6a6bc54df8ea4551e9dfd05ef8e034e898a1e595",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-17-38-52.yml",
+      "hash": "6045817e966e4eceb1c3d671f0372a84d1e58543",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-18-14-31.yml",
+      "hash": "61b0c933cf9d58d4078c0d410daebc1e1b48548a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-19-4-30.yml",
+      "hash": "49aa3ecc3fae62b01ceb8e6a47f5e8a77f5cc19b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-20-12-7.yml",
+      "hash": "fc00c5f6c250dfb8ce24f712c17c79c4b410a32b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-20-48-1.yml",
+      "hash": "d0d67896658acece9d1d1be795b1560e3c78455f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-21-11-16.yml",
+      "hash": "2fbd072bc8e2d37887d932ce1fc0220d05817b3a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-21-12-22.yml",
+      "hash": "448cf83736af4ebe78735023dfa4026fdfd23c9e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-21-21-39.yml",
+      "hash": "134a820dee2330bd8a4fcdb2053aa95c99acc04a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-3-21-23-20.yml",
+      "hash": "7d1f9a55dd32218620dce3925fe31cf27c0068a5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-4-10-16-30.yml",
+      "hash": "b322c51b287335bbafcd48b28f312bbf4ba3eec4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-4-10-52-7.yml",
+      "hash": "e07078c9dcd81d82bebe2c6939c235a9e8d9d3c8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-5-15-29-2.yml",
+      "hash": "74506a814075bafc2a587fc9b9b738b3ce5cab13",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/MossFrp/logs/2023-3-5-15-33-19.yml",
+      "hash": "c1a20c90de09da60b530353b57d31325e7c3946b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/1.18.json",
+      "hash": "2a5ba362c7743d19c474faa9ba3595d9bc41fa02",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/1.18.json.etag",
+      "hash": "bc7b18ec0a8fe0c61b1fa4a35a6408dba8e85e12",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/en_gb.lang",
+      "hash": "964a7f686d8e5bcb0604a0783ca5b85d7195b3a3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/en_gb.lang.etag",
+      "hash": "372c07fa2d5ee20f2ba373933a9e06071564033c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/indexes.json",
+      "hash": "92aa15a18127b6f9e3f0e5a7d018be7ebb389703",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/zh_cn.lang",
+      "hash": "93054f471bdca80260e419f09d5fea1181329663",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.18/zh_cn.lang.etag",
+      "hash": "ca06099c8a48950f9a989ce898a12b672c0cf516",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.2/1.19.2.json",
+      "hash": "678862600e99991a2bf1d434af69ded3a321e22a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.2/en_gb.lang",
+      "hash": "ca6b2acbfce75da3ca18d80309f15470ebeb4f54",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.2/en_gb.lang.etag",
+      "hash": "1be5f0fda04c42ab3122d3a0ad3e7d89b2ac48e8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.2/indexes.json",
+      "hash": "f7033757bcb91e11d79f0f31330d680cc787631f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.2/zh_cn.lang",
+      "hash": "0c1e15b0c2e32d698fbdafe47f09c90976126542",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.2/zh_cn.lang.etag",
+      "hash": "fe583ca9575a6e4fa7d131629fb062fd384efe27",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.3/1.19.3.json",
+      "hash": "05809e69ea78c19358d09ec31a3fd1b2e11f0452",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.3/en_gb.lang",
+      "hash": "44a3a843e76812d89a1e64e41a9dc5d95610d980",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.3/en_gb.lang.etag",
+      "hash": "d4304233fb10d5ecb8ce71350d4b3b8a9b17f5c3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.3/indexes.json",
+      "hash": "f465df3c585b67233e863479efd6b7dbf86aa68e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.3/zh_cn.lang",
+      "hash": "2238a41b5f7a85c25cd16bcdf969f337688d224f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/1.19.3/zh_cn.lang.etag",
+      "hash": "54ce8cf31bc9b094c5a5e6c4b3d6078ac847820f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/version_manifest.json",
+      "hash": "1f9b43d016817e3269f26732de49367a140eff9c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/version_manifest.json.etag",
+      "hash": "8420a2f7e952abd2eec1261c76486f8ea7e9f9c4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/caches/viaversion.jar",
+      "hash": "035a6957389907940a2c792545ba91950823acac",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/config.json",
+      "hash": "b4f271e67c2e1a871fc51e6ec35a8f52a14c4ab9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/servers_ext.json",
+      "hash": "8a9c729d6cda78b3df9da9872a90d178789769fa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/via-translator-1.6-beta.25.jar",
+      "hash": "3b5395b4d7cc9c58aa2a93be30552a942ebea623",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/multiconnect/viaversion.yml",
+      "hash": "0a9b642eb4c27df3bb932eaf140edcd8b104f6e3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/notenoughanimations.json",
+      "hash": "91b72fd75f703f622ef728b0ce635e93662e3fa3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/okzoomer.json5",
+      "hash": "3e2e34f7a63ebf039b230af1985ef19e46ae1c08",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ok_zoomer/config.toml",
+      "hash": "7fdb909beca295ce97830ebf9c45a1f3c8086675",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ommc.json",
+      "hash": "b51a5b675ead32bb1d41055b793788e17a919910",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/puzzle.json",
+      "hash": "b01977e5e305fee5a6aab95e21650aeeb5f8b585",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/quilt/qsl/registry.toml",
+      "hash": "083b23e1407daf7869c7f998e1582d0cb24715f9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/quilt-loader.txt",
+      "hash": "ebc2aa4c192087a2e98896b69f4f014e2e786a78",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/quilt-loading-screen.json",
+      "hash": "306d1b3ef914eec004792e5af8f9d9954b569a9f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/quilt_loading_screen.json",
+      "hash": "8b026f000521c8ec245830bc13bfb206aa3300dd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/resolutioncontrol.json",
+      "hash": "660a760194d339572382e750808f2c644f0ab991",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/roughlyenoughitems/config.json5",
+      "hash": "f570a94dc585ff919147163c78c902334d705c22",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/rrp.properties",
+      "hash": "97c138d0aa7020d1ca10770282197ad65278405d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/skinlayers.json",
+      "hash": "a9c360a5d3f5f66b4d9a7b62cb2723cfdda52177",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/slightguimodifications/config.json5",
+      "hash": "a1659aa66c4b30cbda32b95f2945f11072c5a3f5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/slightguimodifications/cts.groovy",
+      "hash": "acfd6bb744f5b713e948e6f6f71d90eacc6fe442",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/smoothboot.json",
+      "hash": "ef1b487193b9b228821461272c4c8ba7c4d33ac0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/sodium-extra-options.json",
+      "hash": "a17bc11e73b07fe5de6eed982e3776257f2a093e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/sodium-extra.properties",
+      "hash": "e90b2514226a0624cf42112b42477f9872598b89",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/sodium-mixins.properties",
+      "hash": "09db7f09d6dfd063ec4c7c534102892d67655d98",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/sodium-options.json",
+      "hash": "36cf0d5c9f6ef0091570e17c0a4f9f3ee7964797",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/sodium-shadowy-path-blocks-options.json",
+      "hash": "994b0cc76faa6dd9e8d72b38ca9360a73c4dca37",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/swordblocking.json",
+      "hash": "2a1b37ac171327eb80037d188cac9629a7b9386e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/tiefix.json",
+      "hash": "0c1d6ac1d168b754271add552e49cdb48e28f6aa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/tr7zwDonorSettings.json",
+      "hash": "6d1993e730a8f0e0b531b49bf0014fb9cdbc2f8f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/tweakeroo.json",
+      "hash": "5b8815d722ef05d6646e0fe03d11d523a77ba583",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ViaBackwards/config.yml",
+      "hash": "bf1c769f54f74803294eb1d4353adeebe677e226",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ViaFabric/viafabric.yml",
+      "hash": "a9de78d90e28df4b8e7738aff4123f01a89423da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ViaFabric/viaversion.yml",
+      "hash": "3ffb98e9768be08d5ed602e75d893666a30d91f6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/voicechat/username-cache.json",
+      "hash": "de2b4f52814a61d34eac4cd607c50db7ff81892f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/voicechat/voicechat-client.properties",
+      "hash": "aaf389a8ae2d433e5b41a0f2cc2498b167aeb40e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/voicechat/voicechat-server.properties",
+      "hash": "d43d99e9c83ed79f17bdcd1f2aa94aedeed88949",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/xaerominimap.txt",
+      "hash": "08e940e20bc7333b1c5208e4b943559a002c5171",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/xaerominimap_entities.json",
+      "hash": "8479031bd96674ea5ad9d35438d834ad3add7f0b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/xaeropatreon.txt",
+      "hash": "ea102322bdf5be36acef1ed783e85b6a0d1ee418",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/xaeroworldmap.txt",
+      "hash": "e0aacb27399460ae9991442eec5bcfa91ff30a89",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/xaero_map_addition.json",
+      "hash": "4e2a1b289310ffb551eb021f3e8c8ceb8d5f2b7b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "CustomSkinLoader/CustomSkinLoader.json",
+      "hash": "db0ac047d1ed40a398c94e189fd3189c824aa0ca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "fancymenu_data/last_world.fmdata",
+      "hash": "a7fbdf80c4817a22a6579cb6eb3ef9ccb46d132f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "hmclversion.cfg",
+      "hash": "22d9f2843bc2e0af027265490a21bb9440f5dc29",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/3dskinlayers.pw.toml",
+      "hash": "af2f7cc9b03a80ac5964babec6c05c7c47e5d556",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/alternate-current.pw.toml",
+      "hash": "dbf41bd94e6d85b95cd619c768d82fa8c4a8bc4c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/architectury-api.pw.toml",
+      "hash": "8d9a043645246431ee201ca13aa900672182ea10",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/axolotl-bucket-fix.pw.toml",
+      "hash": "8d1b438302b9e8be776cd6c8a639c62750657c60",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/balm-fabric.pw.toml",
+      "hash": "6e27fd6c4e4f76d30a3efa225c8af1ca08d82ede",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/better-beds.pw.toml",
+      "hash": "2c5bd95816a5cb7f3a9b0eccb06966b5a4ce3132",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/better-runtime-resource-pack.pw.toml",
+      "hash": "d443d818b02caebbbf503a6e55be2e275d468af2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/better-taskbar.pw.toml",
+      "hash": "644fab395ee8572d7cac92c4843d0088fef36861",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/block_limit_fix.pw.toml",
+      "hash": "ec6b4ac23f41ca3d5e48fe29e0caa6dac3a2bacd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/chat-heads.pw.toml",
+      "hash": "1f3d0755a894542870f2e0f0e9d4e582865db79a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/chunky.pw.toml",
+      "hash": "a2c44683ad4fc7a57d45d2b89b65b991d0afe512",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/cit-resewn.pw.toml",
+      "hash": "75c50f912d70880380879bcedc5368b2afc1f773",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/clear-skies.pw.toml",
+      "hash": "f8d3e05367a37c91ceaab9547d32d3b15510f845",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/client-tweaks-fabric.pw.toml",
+      "hash": "6538ff2bef3e70fdf787dd5e1cca18df77821c47",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/cloth-api.pw.toml",
+      "hash": "f79f2f6f6800f837f420347219144aceb98d35fb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/cloth-config.pw.toml",
+      "hash": "c0c30387508213c1667a80fb0bf1ef2bc347f83f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/cloudmusic.pw.toml",
+      "hash": "c563b931d3ca9744dea21053d0c8d436b61589c6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/continuity.pw.toml",
+      "hash": "3a2dcc24474d2c17cddbab37577f933ac790fc31",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/cull-leaves.pw.toml",
+      "hash": "b812111bfc81f2f59ff609968ec525077f3c63fe",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/cull-particles-fabric.pw.toml",
+      "hash": "5809a419a095752dc4385a09dcf94cd730e2728b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/customskinloader.pw.toml",
+      "hash": "296177c7bcff1bf619cdc6fbf308e226307cd416",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/dashloader.pw.toml",
+      "hash": "3d0f2e547bbae2fd4626a543fcc0bfc55dadf58d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/ebe.pw.toml",
+      "hash": "cf4552dee2f29c8530e41f683a699ab82fdea7fc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/enchantment-level-language-patch.pw.toml",
+      "hash": "80986e2b549e7627d7993d596280c247485217d1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/entityculling.pw.toml",
+      "hash": "e5f002da03442026fb1fdc4b7f347e4e721a97a8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fabric-api.pw.toml",
+      "hash": "0fcabc003e872c5932b05265e9db06ae25ac1550",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fabric-language-kotlin.pw.toml",
+      "hash": "672945a987f56da9f60d8d7e51758c192b87f2cb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fabrictailor.pw.toml",
+      "hash": "240cdd1c459e69672010ae844ac8117fb4edeaf2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fabrishot.pw.toml",
+      "hash": "47a1255b91810c99c8c40ce37f3f2479116b5e38",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fancymenu-fabric.pw.toml",
+      "hash": "fcea6785f0391c5dcc7111be65d1d5798746feb6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fast-furnace-for-fabric.pw.toml",
+      "hash": "366b11fc63ff88db988b959bfcf566dc33fbe92d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fastopenlinksandfolders.pw.toml",
+      "hash": "f02d5333a02f30c374e648b44affb7bf9eeb3c4a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fastquit.pw.toml",
+      "hash": "78ce8352c6350002a1976d624d6c24319e780572",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/fat-experience-orbs.pw.toml",
+      "hash": "98b3ef3f4795a02be55904ebbc266354d65048b0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/indium.pw.toml",
+      "hash": "3729ed0f29265b18e4e3a752aae3e4ea68ead124",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/ingameime.pw.toml",
+      "hash": "0eabc0360568d847ad58ab7021772928fd1592f2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/iris.pw.toml",
+      "hash": "9291d668c0074e0becc244a1d3da945e0331cb98",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/konkrete-fabric.pw.toml",
+      "hash": "203e5a9c76b85bbf9404479aee1ace3821b034e7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/lambdynamiclights.pw.toml",
+      "hash": "ca01eb2cdab6430a6d357be434fb4c2b3b0d827e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/language-reload.pw.toml",
+      "hash": "87c50d5787e06d006f4becc3e4ab93babd9a0379",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/lazydfu.pw.toml",
+      "hash": "b8ae017ab9ca0a68ca02385b3361dbe181eca21d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/libipn.pw.toml",
+      "hash": "d6e739a4705f941a70a1911690dcc8f991d8a9e6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/magiclib.pw.toml",
+      "hash": "6d9b34413c6c9ca211ec2fe3c39cc6c4ead2c4e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/malilib.pw.toml",
+      "hash": "dcb84b1fea75119eff0deb5861c6725389415630",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/masa-gadget.pw.toml",
+      "hash": "92e4ee5ae27c288078cad87cde1c16812049f617",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/modmenu.pw.toml",
+      "hash": "a216165558759809ac22134344ef5be4314fa61a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/nochatlag.pw.toml",
+      "hash": "f8795a604c872b0cc0745f339014eeb15b8ff43f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/not-enough-animations.pw.toml",
+      "hash": "04fbddfad0266721d9c8e354fa471ddd82bbd80a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/oh-my-minecraft-client.pw.toml",
+      "hash": "84693f757cfff0b4134cc273a14bde9515e02eee",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/ok-zoomer.pw.toml",
+      "hash": "2d3be455fa714f7720ac0c0b5c406bf6ee28907a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/quilt-loading-screen.pw.toml",
+      "hash": "74b80a85370578223b53e4a137a7df6fbc35a000",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/reeses-sodium-options.pw.toml",
+      "hash": "79a8e9f089bea170188fbf06b6616fc09d3496d5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/resolutioncontrol.pw.toml",
+      "hash": "2662747a398352c3893f4a954072a30902e163a7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/roughly-enough-items.pw.toml",
+      "hash": "97b42afa4401d3e4c0a4f8ade24bacd95c537a42",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/satin-api.pw.toml",
+      "hash": "3d5be5f85d9829ada88b1c36f869f99142b5f08a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/screenshot-to-clipboard.pw.toml",
+      "hash": "3720c4ed46840647bd24c2b4ed711b1bc4b3d888",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/simple-voice-chat.pw.toml",
+      "hash": "233185bce7f7c5d6a59d916de4ca218bf06afca7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/slight-gui-modifications.pw.toml",
+      "hash": "04527c8611dec9270af7be7948e4a2b72befa8ad",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/smoothboot-fabric.pw.toml",
+      "hash": "b0221e674cd9432c6a88ec683db4eb538a98b2ef",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/sodium-extra.pw.toml",
+      "hash": "1e9fd266a6210f2aa57af4845fc3a7a86f0c20d8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/sodium-shadowy-path-blocks.pw.toml",
+      "hash": "5fab3617ba8fd34fd2d73a080e1fe848431601f8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/sodium.pw.toml",
+      "hash": "e3ab70bf053f81b96c2b573d54b0d97b612a3bdd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/starlight.pw.toml",
+      "hash": "839bf1c191646bfa9a969a658e9584be4301fb07",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/sword-blocking.pw.toml",
+      "hash": "89dc28f5bbd9178547324fe85a5d0c7784e8eae4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/tooltipfix.pw.toml",
+      "hash": "f1827510d250f2a341ca5bfeda5e936065c5c0b9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/transliterationlib.pw.toml",
+      "hash": "786027478c6bf9bbb2e66e9d2d9bbf2e9ab3e2e5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/tweakeroo.pw.toml",
+      "hash": "35bc798620ecfb38e02bad951dd7b4f75369a239",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/winver.pw.toml",
+      "hash": "41538f09c084d6d831730d64be7fe1494897ac17",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/xaero-map-addition.pw.toml",
+      "hash": "74e0d503016002ceb43f3c81086c6ab6a189d8d9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/xaeros-minimap.pw.toml",
+      "hash": "c8b760dfa698b3b38e33483304ad88d08776725f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/.index/xaeros-world-map.pw.toml",
+      "hash": "c014ff449f2a9cdf5dd6c42d74434eb46b973431",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/1.8格挡.jar.disabled",
+      "hash": "a03cde1d75863a868b1b635f51bb041350d60b7f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/3dSkinLayers-Fabric-1.4.3.jar",
+      "hash": "6952690614e7460afdfa29a19746ed3bc36ba001",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/accountswitcher-1.0.0-1.17.1.jar",
+      "hash": "68c0bf641648784c3cbf624f788daef48dbab409",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/alternate-current-mc1.17-1.5.0.jar",
+      "hash": "249205048eb0be246f6738279b35e2858601745c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/architectury-2.10.12.jar",
+      "hash": "cdf7c5aaabae39e5403b07b84dacdbae99ac7fc8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/axolotl-item-fix-1.1.3.jar",
+      "hash": "f60f9ea1e6afded2935ba5b1406aedcf429c20f8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/balm-fabric-1.9.0+0.jar",
+      "hash": "53ebb634b9c86ad90e516da12cd0b22e7b71c0cb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/betterbeds-1.2.0.jar",
+      "hash": "970e34b6bc69a581aadca2786b9a4490319f35f9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/BetterTaskbar-1.17.1-Fabric-1.0.jar",
+      "hash": "b004a20ad4171be3fc06b05a70a496c3889453dd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/block_limit_fix-1.0.3-fabric.jar",
+      "hash": "cdddc9360b679db04d3be9a56540a706aa8436e5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/brrp-fabric-0.9.0-1.17.1.jar",
+      "hash": "2b0be2e1f73179f111386bff0808206a7b882037",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/chat_heads-0.6.0-fabric-1.17.1.jar",
+      "hash": "8824f546b38d68c22a3508222ede3840214386dc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Chunky-1.2.147.jar",
+      "hash": "b3e4a34207775843b2b1690f1c2c2d2ccfe29ffe",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/CITResewn-0.9.1+1.17.1.jar",
+      "hash": "ac422ad6ec5bed7a52c34af6dd6fa8430a802c92",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/clear-skies-fabric-mc117-2.0.89.jar",
+      "hash": "02d77c7c58c876aee4dd8756ceec0f1607e12a6e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/clienttweaks-fabric-6.0.0+0.jar",
+      "hash": "9b12f485de32940f31533cafa0b81b6b87cb842f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/cloth-api-2.1.62.jar",
+      "hash": "b9aad3682046c1ab5494f1b15a390a9a6b2f2272",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/cloth-config-5.3.63-fabric.jar",
+      "hash": "f58166f0b54a1692ad8a78fba807bfe3964aeef5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/continuity-1.1.0+1.17.jar",
+      "hash": "b82e709c8cf09e41a0fd7a312137030f7824c112",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/cullleaves-2.3.2.jar",
+      "hash": "9bc9c61f0a7dc6c765118a0527850b91847608cb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/cullparticles-2.0.jar",
+      "hash": "d8bdfac6ff57aa0e21b8e1cc51bd797a4d254543",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/CustomSkinLoader_Fabric-14.15.2.jar",
+      "hash": "73a4dd111c6d0d4ccf1069891fd0fd179c265aed",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/dashloader-def-3.1.1+1.17.jar",
+      "hash": "f96cfd31a944dacfb766f4d27e49b0b2b9e71106",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/enchlevel-langpatch-1.2.3.jar",
+      "hash": "b24a40b1c2bd68d776b7c53545ade44113317686",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/entityculling-fabric-mc1.17.1-1.5.0.jar",
+      "hash": "19bacef4b20221e6be8aa1b17415c9a1465f19ad",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/exordium-fabric-1.0.1-mc1.18.2.jar",
+      "hash": "06ebc500dfe93a950a0d4a43cd7379d6e6b91f81",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fabric-api-0.46.1+1.17.jar",
+      "hash": "a7d86f36c5b27bdb0008a84c3ce91e2b095a2834",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.9.1+kotlin.1.8.10.jar",
+      "hash": "12f265ea91e73ac2c74c6f66d446671122bbb1c8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fabrictailor-1.7.1.jar_Extra_fabrictailor-1.7.1.jar",
+      "hash": "3b000211b8689613f52f85aad3705f6565d7362e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fancymenu_fabric_2.4.2_MC_1.17-1.17.1.jar",
+      "hash": "62793a25cbeb26e4edd1c8fdd7bae4045a485e99",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fastfurnace-1.17-3.0.jar",
+      "hash": "662c2876c6d2f0b3391119bd164fd1d46978dde4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fastopenlinksandfolders-1.1.1.jar",
+      "hash": "c24a170d663445455e3d8851c2dd5134499f336c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fastquit-1.2.2+1.17-1.18.1.jar",
+      "hash": "077cc1a026f29b4690b02c723affd9b795f2780b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/FatExperienceOrbs-1.0.1.jar",
+      "hash": "91d7de796089d5afd87110d8eb0340fb3e4ce8ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/I18nUpdateMod-3.4.1-all.jar",
+      "hash": "9b497ce4a1ce03edc42efce283ecbecdca26c192",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/indium-1.0.1+mc1.17.1.jar",
+      "hash": "ee35a03222406e5a8c8ea4aacb24c0d694a09889",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/IngameIME-fabric-1.17-pre5-1.6.4.jar",
+      "hash": "cfbf8b3c285fcb4771ad92dfd6e9f4c5b2b041d9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/iris-mc1.17.1-1.2.7.jar",
+      "hash": "e2095b42254e849d19eeefe7b5c04667c834a759",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/konkrete_fabric_1.3.0_MC_1.17-1.17.1.jar",
+      "hash": "09e5994764733d7ba8630d9ba4d750de3cfd7691",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/lambdynamiclights-2.1.0+1.17.jar",
+      "hash": "812fdc41518b786f05d72de4017c16c88a3e2ea6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/language-reload-1.2.jar",
+      "hash": "1590b32c7f611b522098f0dee252ee15e21e74b5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/lazydfu-0.1.2.jar",
+      "hash": "2efec5781f1271bdcdae462eee402ccb97bff6fe",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/libIPN-fabric-1.17-1.0.8.jar",
+      "hash": "efd09d7e56ca577aeb7ef8109b60c69509423f8c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/lithium-fabric-mc1.17.1-0.7.5-SNAPSHOT.jar",
+      "hash": "24fbfcc7f288611037d90879e503480a34bf9c63",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/malilib-fabric-1.17.1-0.10.0-dev.26.jar",
+      "hash": "42ae3dbdc290508cfc49940a1333843b92a74446",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Masa模组增强.jar.disabled",
+      "hash": "48243aa10318aa349d52ffa4ece5aa4031226e2a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Masa模组增强与Xaero地图增强的前置.jar.disabled",
+      "hash": "db727c64dba42540f0a447b9c42c5e19f6872b9a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/MC内置网易云音乐.jar.disabled",
+      "hash": "96316bb408352cd7d8808289e006089f53c94632",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/modmenu-2.0.17.jar",
+      "hash": "8745c1bf7b36566344635e7f453805285cb9851d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/NoChatLag-1.1.0.jar",
+      "hash": "9975589002fa170511bee32d839db76b630ae894",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/notenoughanimations-fabric-1.6.0-mc1.17.1.jar",
+      "hash": "4eb61a3c97d6043d05e32890a7b4c2c86f972955",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/okzoomer-5.0.0-beta.3+1.17.1.jar",
+      "hash": "aa493f41d89b2a1e1a299ae4ee8073ad39f67dca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/quilt-loading-screen-2.2.1+1.17.jar",
+      "hash": "238a3859232f256ae98405b3324959ed3c66d892",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/reeses_sodium_options-1.4.9+mc1.17.1-build.65.jar",
+      "hash": "2a27ed7bcb7a750454dd14d5cd8618ba6d8c27a8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/REI 物品管理器.jar.disabled",
+      "hash": "3a7db94f1b19561af4ac0c6543ce0a1a1f9a177f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/resolution-control-plus-1.18.x-3.0.0.jar",
+      "hash": "e7ec8d2e4c1b554f3c113198504eadafe089726b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/satin-1.6.4.jar",
+      "hash": "9dc0475ba3206fe8aac083a255fc0ff07c55415a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/screenshot-to-clipboard-1.0.8-fabric.jar",
+      "hash": "3b43aa2fa03b89b1600548dd87f44f90b272def2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/slight-gui-modifications-2.0.1.jar",
+      "hash": "3e02e6970ae01fafa9b49e5a058cdd0452bede25",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/smoothboot-fabric-1.16.5-1.6.0.jar",
+      "hash": "a0d5419980f8c65c6256483b864269cfe302894d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/sodium-extra-0.4.17+mc1.17.1-build.93.jar",
+      "hash": "a281bba1a880eef74d030639b9aa7addb85a3d0a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/sodium-fabric-mc1.17.1-0.3.4+build.13.jar",
+      "hash": "85f5d67f0ce9e995e738eb6b60034bc919a1859d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/sodium-shadowy-path-blocks-2.0.1.jar",
+      "hash": "692f53dddf67a8504d57c217506ee104309803ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/starlight-1.0.0+fabric.73f6d37.jar",
+      "hash": "a4eaa5af56eb7719bae025f9d7c5da1490d4822f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/TieFix-1.5.0.jar",
+      "hash": "e90ee78965866e5fa32cf36c69e3c1b305222298",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/tooltipfix-1.0.4-1.17.1.jar",
+      "hash": "b8a3d717b61b9ed599455f85dd6c3b43ff59348e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/TRansliterationLib-fabric-1.2.2-1.17.1.jar",
+      "hash": "238f1a3184bb2fbb485e59d3d53866737c16382a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Tweakeroo辅助模组.jar.disabled",
+      "hash": "04eaf60ea2e1ab0b13ad00cfe5ed4ff72fd4876a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ViaBackwards-4.6.0-23w03a-SNAPSHOT.jar",
+      "hash": "92f8a0fe636ccd29640b2c9ec9e31d9e6088cf0f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/viafabric-0.4.9+21-main.jar",
+      "hash": "593229b67fee56e141eb85855e51141d2363cf9f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/voicechat-fabric-1.17.1-2.3.28.jar",
+      "hash": "7f2597a0193a796b0c7e87138f874a5b2d1c7a28",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/winver-1.0-SNAPSHOT.jar",
+      "hash": "3f12101f6b3b3cd2eee0245e08e49b669b89d0bf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Xaeros地图增强.jar.disabled",
+      "hash": "4addb9fd147ab079f9c9d747ffda06a4b2b9ab69",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Xaeros地图增强的另一个前置.jar",
+      "hash": "543886be81d055a7120691708e5b2d38434f61dd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Xaeros的世界地图.jar.disabled",
+      "hash": "a9aa869bf5272d10e0c2f572701082d609bf1561",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Xaeros的小地图.jar.disabled",
+      "hash": "92ac577a30c25791071d8a3b5de08d0743a0fb22",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/XibaoPlusPlus-Fabric-0.2.0-release-mc1.17.1.jar",
+      "hash": "0f4a587fea2e2cb982d3f013860607d17d58beb0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/高清截图Fabrishot(不兼容分辨率控制).jar.disabled",
+      "hash": "739729da7c1930728c9d78e460ae5357945237a3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "options.txt",
+      "hash": "f4c7ba8054c6476958037605cba8dc45fcf7842e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "Package.BakaCoreInfo",
+      "hash": "aa41201bbfc5e1af6c02a94a2d2d9b0ac17d6402",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "PCL/Setup.ini",
+      "hash": "f2ab0db8cabb51937dc90f5ff0744dfaf403c1a4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Fast Better Grass.zip",
+      "hash": "62dc9414b5d7f1f1d63d236d2eb77b22518137de",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/mfs-22w02a 1.11-1.12.2.zip",
+      "hash": "3b5c14ee77a87ac1aff0e42b6a0cfeffd2730f63",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-7.zip",
+      "hash": "92e2dfb46ee237daee312b6e7801c89cdf614f86",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/quilt-ui.zip",
+      "hash": "6d6a16120c1ba97522de8c7d2b127ac71616815c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/UnicodeFontExtend-release.zip",
+      "hash": "5899fcb865e8623e2bf7b6ba77653dce65ac5b3a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/集成汉化/pack.mcmeta",
+      "hash": "0c9b41ce95b083d988a1f8a338419ee5e81f4922",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "servers.dat",
+      "hash": "d796294857e5002a5c79c1cab821ce137ef43ec4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Lite.zip",
+      "hash": "b1423a50c0fe5b18d1d21a341021498499d7a589",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "shaderpacks/VanillAA.zip",
+      "hash": "b37a460b748d82d6d0a0c25a90351d6dd459c944",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "shaderpacks/YoFPS+High+(Chocapic13+Edit).zip",
+      "hash": "7ceeb9cd8df24b40cb9c55870128ff05c254683b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "shaderpacks/YoFPS+Low+(Chocapic13+Edit).zip",
+      "hash": "c3035dfdbd68efab506dd4f07a3df108ec4eb429",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "shaderpacks/超超超超超级低配光影，渣机也能带的动，光影效果也很好.zip",
+      "hash": "d9198141a8e92ae096a888ac394813d8f4836076",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "wallhaven-e7651w_1600x1024.png",
+      "hash": "6dff85c572ae6cdf69c758e92c2fadb72a6cf2e7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/config.txt",
+      "hash": "4614558ffe94c641767d68736e1f4711a42926f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%-1/cm$server1193_1.txt",
+      "hash": "5ae08eeda938fa87562e8f5d6423059f5b346432",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%-1/mw$default_1.txt",
+      "hash": "8618176b0d543ba00f802f8cc1c6c6407824e238",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%0/cm$server1171_3.txt",
+      "hash": "04e966e90b192a1d938e7f08ea7fa47694d23bc1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%0/cm$server1193_5.txt",
+      "hash": "eb8c0e171c19b8c3548770c1b4e73092e185f65a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%0/mw$default_1.txt",
+      "hash": "c1467bf4c24402051e47e6054a2481e3c41a885f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%0/mw4,1,2_2.txt",
+      "hash": "24150a123655c1a1b4475213487b7e0480bfcaf7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%1/mw$default_1.txt",
+      "hash": "484b3db46971b833bf44e1271ab67a6e1e3f064d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%minecraft$backrooms/mw$default_1.txt",
+      "hash": "e16e37689419eb45fbdc6c25f7099a447e9c8568",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%minecraft$skycityworld/mw$default_1.txt",
+      "hash": "b25e7e922221730e52af26d094f755fcc41222f5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%minecraft$smallmushroomovo/mw$-312409983_2.txt",
+      "hash": "add3e5b4a6ea508e89bf8cdfbbd300c63bae4c99",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_106.12.142.44/dim%minecraft$smallmushroomovo/mw$default_1.txt",
+      "hash": "bb2e9d6a961480ec43af64a5019f26c533302f61",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_127.0.0.1/config.txt",
+      "hash": "4614558ffe94c641767d68736e1f4711a42926f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_127.0.0.1/dim%0/cm$server1171_3.txt",
+      "hash": "04e966e90b192a1d938e7f08ea7fa47694d23bc1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_127.0.0.1/dim%0/mw$default_1.txt",
+      "hash": "c1467bf4c24402051e47e6054a2481e3c41a885f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_127.0.0.1/dim%0/mw4,1,2_2.txt",
+      "hash": "24150a123655c1a1b4475213487b7e0480bfcaf7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_2b2t.org/config.txt",
+      "hash": "da6720faf832c144e34c09cb569a4f0dcdf52bc6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_3C3U.org/config.txt",
+      "hash": "2e50f45f507817ec89e1346678d0cfd84f318d01",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/config.txt",
+      "hash": "4614558ffe94c641767d68736e1f4711a42926f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%-1/cm$server1193_1.txt",
+      "hash": "20d07c7dacbf42b19d2c83ba16d0fe826535f0ca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%0/cm$server1171_3.txt",
+      "hash": "04e966e90b192a1d938e7f08ea7fa47694d23bc1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%0/cm$server1193_5.txt",
+      "hash": "eb8c0e171c19b8c3548770c1b4e73092e185f65a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%0/mw$default_1.txt",
+      "hash": "c1467bf4c24402051e47e6054a2481e3c41a885f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%0/mw4,1,2_2.txt",
+      "hash": "24150a123655c1a1b4475213487b7e0480bfcaf7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%1/mw$default_1.txt",
+      "hash": "484b3db46971b833bf44e1271ab67a6e1e3f064d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%minecraft$backrooms/mw$default_1.txt",
+      "hash": "e16e37689419eb45fbdc6c25f7099a447e9c8568",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%minecraft$skycityworld/mw$default_1.txt",
+      "hash": "040789ab5954e4ad98f4159092308e3d3e7bd1ca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143/dim%minecraft$smallmushroomovo/mw$default_1.txt",
+      "hash": "085c1b32d3a3e357e4bfd5b951cc0feea9c3a6b3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_43.139.190.143 - 副本/config.txt",
+      "hash": "4614558ffe94c641767d68736e1f4711a42926f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_666.hypixel.net/config.txt",
+      "hash": "17b71e940aaa06e692e7387fd273674678aa3cfa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_aeschylus.1Sky.cloud/config.txt",
+      "hash": "c4f9ad806e82eede86e0fc00525f15ddefb508b7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_breeze.asia/config.txt",
+      "hash": "87cd47679f84b31cc4b0b92c3345dfc1b108be73",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_breeze.asia/dim%0/mw$default_1.txt",
+      "hash": "19eb4aff247e35166b0260609362e71969d91d3e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/config.txt",
+      "hash": "4614558ffe94c641767d68736e1f4711a42926f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%-1/cm$server1193_1.txt",
+      "hash": "5ae08eeda938fa87562e8f5d6423059f5b346432",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%0/cm$server1171_3.txt",
+      "hash": "04e966e90b192a1d938e7f08ea7fa47694d23bc1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%0/cm$server1193_5.txt",
+      "hash": "a1c1c5ed35bf19d981d17b8eabf3252da6ff359d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%0/mw$910056764_6.txt",
+      "hash": "b4f5bf531f941f932059ebe22eba544d807adb94",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%0/mw$default_1.txt",
+      "hash": "eb4ef1d32d770e6d95e8796d0df90dd01e888f35",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%0/mw4,1,2_2.txt",
+      "hash": "24150a123655c1a1b4475213487b7e0480bfcaf7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%1/mw$default_1.txt",
+      "hash": "484b3db46971b833bf44e1271ab67a6e1e3f064d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%minecraft$backrooms/mw$default_1.txt",
+      "hash": "e16e37689419eb45fbdc6c25f7099a447e9c8568",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%minecraft$parkorev1.1/mw$-312409983_1.txt",
+      "hash": "6ccc8286e60cc9ccc663d432e1eb7c0b1e44a822",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%minecraft$skycityworld/mw$default_1.txt",
+      "hash": "9fe2a948eaeabc29caaeccbfd917d1172b2a6922",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%minecraft$smallmushroomovo/mw$default_1.txt",
+      "hash": "b76591993d02eb20526518fec38fc4789b6ec2e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_ddns.ganshity.top/dim%minecraft$smallmushroomovo/mw-2,1,-2_2.txt",
+      "hash": "cda4bc29c6cd301037117ee860201101100f4a29",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_hk-2.5gbps.locyan.com/config.txt",
+      "hash": "cde276a0b89990f4c840a3ac85d87d7939f32417",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_jxk37.e2.luyouxia.net/config.txt",
+      "hash": "f3c43e5937d1f27c055f17c453e4e2eea3de91ec",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_mc233.cn/config.txt",
+      "hash": "87cd47679f84b31cc4b0b92c3345dfc1b108be73",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Multiplayer_play.simpfun.vip/config.txt",
+      "hash": "74aaba514ca558c1e8b86f8c4a180ee1d5220e7a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/New World/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/New World/dim%0/waypoints.txt",
+      "hash": "8a0debe709806e7509fee0c0f669d704462e3e42",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/SCW/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/skin test/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/config.txt",
+      "hash": "d5bc767c1c1c96423e6c043ea52274d3eddf5c39",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%-1/cm$server1193_1.txt",
+      "hash": "f6dcc0a75ed39e7153d23eba53302aa30976aedf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%-1/mw$default_2.txt",
+      "hash": "9b1445b202c1bf9c4349e22bfa759d18ee07c251",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%-1/mw-4,1,2_3.txt",
+      "hash": "8618176b0d543ba00f802f8cc1c6c6407824e238",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%0/cm$map_6.txt",
+      "hash": "8618176b0d543ba00f802f8cc1c6c6407824e238",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%0/cm$server1171_3.txt",
+      "hash": "f10d3edae64379c43a7155d131146355ee9621d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%0/cm$server1193_2.txt",
+      "hash": "ed3ce077cbed0936f59da3dc9108a8e3aed2bf26",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%0/mw$default_1.txt",
+      "hash": "30bb1684bcc8767616b9fecf65286bf5c30a065d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%0/mw-13,1,-5_4.txt",
+      "hash": "f10d3edae64379c43a7155d131146355ee9621d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%0/mw-4,1,2_5.txt",
+      "hash": "8618176b0d543ba00f802f8cc1c6c6407824e238",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%minecraft$skycityworld/mw$default_2.txt",
+      "hash": "0b738e9eb1ab96705cf35fd2e537927a0d95e992",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/Unknown/dim%minecraft$smallmushroomovo/mw$default_1.txt",
+      "hash": "d1641b40bfb0a5a241e9320af1f2ef0bb50bb77d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/新的世界/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/新的世界/dim%0/waypoints.txt",
+      "hash": "10024d2565eaaa344985ffa9e47e1c5f2eecca3a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/新的世界 (1)/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/新的茶馆/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWaypoints/无聊的生存/config.txt",
+      "hash": "86f42fa85bfe90e7eeb01ea1c2c33e1539fffda0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/-1_-1.zip",
+      "hash": "f5e446768ab79660b49610498a80b577d738f98f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/-1_0.zip",
+      "hash": "7067c1dcd33056d17eea82f9570744a6ac314357",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/0_-1.zip",
+      "hash": "78c6f5fa8b13081d67d8f9e7bb254dceaaa755c6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/0_0.zip",
+      "hash": "09e4aa1a1f2a31c24e51c769bf08a833944bcd18",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/cache_1/-1_-1.xwmc.outdated",
+      "hash": "c2a77fc10afe6a4837f8c4782d8a7b24e388b200",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/cache_1/-1_0.xwmc.outdated",
+      "hash": "a83775fc8135785a55586eae3cb14adedb65c787",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/cache_1/0_-1.xwmc.outdated",
+      "hash": "caf054016e36aeae5bd6364253929aee841b0489",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/minecraft$dating/mw$default/cache_1/0_0.xwmc.outdated",
+      "hash": "4646bc3417539ac54d0d865db4bf84c0fab23f4f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/null/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/null/mw$910056764/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/null/mw$910056764/1_-1.zip",
+      "hash": "e68f1b1f634502fddf558509d574b05b39b8d1c3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/null/mw$910056764/1_0.zip",
+      "hash": "e83424fc9da5a373e4d3c8bda122b4d3221922c9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/null/mw$910056764/cache/1/0_0.xwmc",
+      "hash": "ad7329bd93739a9faef4ddc426d816917a2eba57",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_106.12.142.44/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_2b2t.org/DIM1/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_2b2t.org/DIM1/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_2b2t.org/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/null/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/null/mw$default/-1_-1.zip",
+      "hash": "f240ec9ba0473f28cda36aadab996885dbab96b1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/null/mw$default/-1_0.zip",
+      "hash": "032d8ac9fe7ce9fa5c831a9712dcff95a6086d6e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/null/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/null/mw$default/0_-1.zip",
+      "hash": "af78cbcbe44cd632d85f3d581089b60ae9f2ed8d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/null/mw$default/0_0.zip",
+      "hash": "dd2da02e5eecb6785aa4ca7860bf4ddaccfa8100",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_666.hypixel.net/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/-2_-2.zip",
+      "hash": "f20b9c5239e4b10432f6760869fd6b3d932e723e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/-2_-3.zip",
+      "hash": "bfec68b6aaad9a12355dc8a94baf8d3ba69fcea2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/-3_-2.zip",
+      "hash": "73ed21e3fcd44e6c5ea7988143348ca4e2d2c082",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/-3_-3.zip",
+      "hash": "f9beac584709ec43134d65d2aa9e490fa8739856",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/cache_1/-2_-2.xwmc.outdated",
+      "hash": "9bfa7c843dfa1a2cdeb4ef2844ffcbac46a49bea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/cache_1/-2_-3.xwmc.outdated",
+      "hash": "74adf47a0dc2580afa781d1f95af2320482d4db6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/cache_1/-3_-2.xwmc",
+      "hash": "2b4d9485bba5b607a6f50691b17cbf3df0e471ba",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/null/mw$default/cache_1/-3_-3.xwmc",
+      "hash": "ea84af1ed19438b1f8efe64c8b9d17be78563c2d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_aeschylus.1Sky.cloud/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/DIM-1/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/DIM1/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$backrooms/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/dimension_config.txt",
+      "hash": "a3eb6106731d13078d7f63d9eb2fe8c80bc84c08",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/-1_-1.zip",
+      "hash": "9a84812c2870268dd373296cd9eec95e430fd0a6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/-1_0.zip",
+      "hash": "9e4913bcc3c06be23a1e9cfb33fb6b6184bbd633",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/0_-1.zip",
+      "hash": "110463dbfa3387b192fddc5639983287874df2a4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/0_0.zip",
+      "hash": "fd01f866473fd70a1954cf0355588078c5ddbb86",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/cache_1/-1_-1.xwmc.outdated",
+      "hash": "deefcf39390165e01526d64739a546ab9a4fbb2f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/cache_1/-1_0.xwmc.outdated",
+      "hash": "3184766e7708ab5e43c3b405f876f46ded1cb0da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/cache_1/0_-1.xwmc.outdated",
+      "hash": "db66fd6ce8ce6ae2f78c7a69e931a96bcf68a37f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw$default/cache_1/0_0.xwmc.outdated",
+      "hash": "6284aae47f3d62e78cead65377fc9c23594079ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/-1_-1.zip",
+      "hash": "0839a110827453e5ec0edfe14a14fb8ced0adb4f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/-1_0.zip",
+      "hash": "afcda3e96d5317e21614a7c98026ff228948f598",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/0_-1.zip",
+      "hash": "f273265924ab520ae0dcb37743beae1f69dad368",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/0_0.zip",
+      "hash": "0dea8d70b571b015ee0ffc595b46cfb6779544e0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/cache_1/-1_-1.xwmc.outdated",
+      "hash": "2142b102179f0538939ee1a8e85da8df0376ee0b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/cache_1/-1_0.xwmc.outdated",
+      "hash": "e3fd373391dabe33eba27ce7d834d1d6bb089ac9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/cache_1/0_-1.xwmc.outdated",
+      "hash": "2788bbf1aa595839ba30178817ecdb282ed23c2b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$dating/mw-1,-1,-1/cache_1/0_0.xwmc.outdated",
+      "hash": "8340521ed661cea19545e8f353f67699d9d08f92",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$parkorev1.1/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$parkorev1.1/mw$default/-1_0.zip",
+      "hash": "fbb1dee31fc7fdcc74a781a440158ccdace3d606",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$parkorev1.1/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/dimension_config.txt",
+      "hash": "d04cfe131f4f9f3a53ba693a5c53835346fafadc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/-1_-1.zip",
+      "hash": "d12e78a2edb2c8e970a0d8365e43870df45b37b3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/-1_0.zip",
+      "hash": "75a5a92eb3d62bc6678c8aa9c86fbbcf4102d097",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/0_-1.zip",
+      "hash": "13e61e2b3079f5ae179295b7fe53611d13bbf418",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/0_0.zip",
+      "hash": "bc2c432a0b13dc5b3542d6c5225a406c65b9e9fc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/0_1.zip",
+      "hash": "ddbec55fba736ea8c6b9c7558acb7aa130013463",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/cache/1/0_0.xwmc",
+      "hash": "9798ee2f7ef53778dd06da2dd53a799cc130b78b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/cache_1/-1_-1.xwmc",
+      "hash": "0365cdf21aad14d5f7ba3b7c9317cf16c49d8f28",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/cache_1/-1_0.xwmc",
+      "hash": "c83c85229be2f72e2630da3e83974142564b53b4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/cache_1/0_-1.xwmc",
+      "hash": "e18370b1b8e6a9bf7aa455b1a5436d08e230ac4d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/cache_1/0_0.xwmc.outdated",
+      "hash": "4a6297ea3c1f0d44db5e58cefceba4df9e42f267",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw$default/cache_1/0_1.xwmc.outdated",
+      "hash": "bec3615467ced8a093dd4319c0d998112606a82a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$skycityworld/mw4,1,7/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/dimension_config.txt",
+      "hash": "91265eccab4dc1f039f39dda7709ce14cfb71217",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/-1_-1.zip",
+      "hash": "c1669b7e233400f2b062afc104b0abb5e3f3c67c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/-1_-2.zip",
+      "hash": "65b492ab3817e059d96bf45fc63ae68acc37dc5e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/-1_0.zip",
+      "hash": "fbc1159d86fc350c516b01cc1c26f782cce3c730",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/-1_1.zip",
+      "hash": "01dd494f80c23d2e426ad9931e9a2d17886e0a2b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/0_-1.zip",
+      "hash": "c01f9e49a3b94a9b38348a54b87cf07354289740",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/0_-2.zip",
+      "hash": "d522bf4c6226eef9ff79904e0f256a8d748bfc70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache/1/-1_-1.xwmc",
+      "hash": "3b350e20638bb813dd3a752e9cada858596abbd4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache/1/-1_0.xwmc",
+      "hash": "1284c46e611e4fe238f6fd00f9813eb5ad22ba9d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache/1/0_-1.xwmc",
+      "hash": "d3e0fdd434a0f3acc5cfcd5a2473785b314f1411",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache_1/-1_-1.xwmc.outdated",
+      "hash": "be473472af22e3cd4c9973c68c57cb04e8b83fd2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache_1/-1_-2.xwmc",
+      "hash": "21d26064571a2a09173af92f44001eab7796c863",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache_1/-1_0.xwmc.outdated",
+      "hash": "09cb5d5a0db852f0e5406354eb202fc716c39657",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache_1/-1_1.xwmc",
+      "hash": "78bfb38329dbe1253a827e0143fd1c10edeeb456",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache_1/0_-1.xwmc.outdated",
+      "hash": "2aeba376b7d11e944ed2097e1fab11bdf3c16ce1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/minecraft$smallmushroomovo/mw-2,1,-2/cache_1/0_-2.xwmc",
+      "hash": "a7347ab120aff7b2240a34bf1f2ee759c20efeb9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/dimension_config.txt",
+      "hash": "a7f0b7d7d9855fba6495c0951d70d6369a76a0e2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/-1_-1.zip",
+      "hash": "e6892a65eb317fe3356412eda6fcb8ef88962722",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/-1_0.zip",
+      "hash": "53606bd6027f790f68890be3e37c9655eded848b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/0_-1.zip",
+      "hash": "a8d8e675db71900cbecb2310c29a24afa4f231fd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/0_-2.zip",
+      "hash": "f403adb7b372e911e8d65459c33ba3f0fb299ffd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/0_0.zip",
+      "hash": "adaab9df67568b57fc4d67580ba3ff6fc0df4731",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/1_-1.zip",
+      "hash": "14845271642b4cb0482ce027e2c9cf534db1ac46",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/1_-2.zip",
+      "hash": "6147281390b0e3218f585d5f9aa631dc59b2c105",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/1_-3.zip",
+      "hash": "ad393137e0d092cd1ad55e8e4b2ade216d794c1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/1_0.zip",
+      "hash": "db75c8e1d486f2536176dde16707985a4bb28f0d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/1_1.zip",
+      "hash": "5b529cfec07ff32fb93418eb957fa6b82f9a0c4c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/2_-1.zip",
+      "hash": "3015fc54eca2c6d91ce93bbe797aa7b26356b513",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/2_-2.zip",
+      "hash": "603d33485fc829a1d58b29888fecb297ef7c914f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/2_-3.zip",
+      "hash": "6cfaf9af17f14538013c1f7f7e5132bdf50e332a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/2_0.zip",
+      "hash": "113868e52afca8c436997cf50dff8a3a1f3bae28",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/2_1.zip",
+      "hash": "9ed95c628c0c4de9bf29227639a1ce7f4b5414df",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/2_2.zip",
+      "hash": "163be22c812f822a7d7cb5b650f0cfe88ef12c89",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/3_-2.zip",
+      "hash": "3d9258269c435a3fcd704e765bf95c7bf0a1a626",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/3_-3.zip",
+      "hash": "a5a7810f7d5482bc452f6cee1d71e189a505d574",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/-1_-1.xwmc",
+      "hash": "db6bd7df2ab8054b01b9bb1cd87bc1fea112b894",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/-1_0.xwmc",
+      "hash": "2136403c0e0d626d807cf4537d3fbbf8aadde522",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/0_-1.xwmc",
+      "hash": "91bfd00da0a06c1e8e520b1ba11a76d99285f8c3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/0_-2.xwmc",
+      "hash": "9b741c316bc57bbdcea56f8fbc11c586ed5d6a72",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/0_0.xwmc",
+      "hash": "8c5be45f31ccebd849badf1cde8eb4afb67047e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/1_-1.xwmc",
+      "hash": "2e186bc03101a0e00b97e57f4a95318450d8de62",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/1_-2.xwmc",
+      "hash": "33bda39d1c7f65911f7614d6d46fd53fa8d139ff",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/1_0.xwmc",
+      "hash": "9dd372d7ec8ec4fc37e18db6b52585ef59ccc15f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/1/1_1.xwmc",
+      "hash": "ad5ccfb58411bab28652b5c7f615f24f9d91794d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/2/-1_-1.xwmc",
+      "hash": "cb808aecaaf95acef2aa79dad317b27db700131a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/2/-1_0.xwmc",
+      "hash": "c1eb1ca1dd7c543bcc32d70fccc2ab3860eacaae",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/2/0_-1.xwmc",
+      "hash": "9f6c0dab5b6cf4ce2869dd0fb5c95d8201dc3c74",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/2/0_0.xwmc",
+      "hash": "9e4307b9a126f42b3ebfb2e8c063a3ed20e18b01",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/3/-1_-1.xwmc",
+      "hash": "900b173ec3264bec010aa19865d5fb0c59fccea8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/3/-1_0.xwmc",
+      "hash": "c94dda8205ba7247899dae32cf722efdcd64ae7a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/3/0_-1.xwmc",
+      "hash": "e832e1a6a86e8dfd9e4cbe425ec1dab80f6267ad",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache/3/0_0.xwmc",
+      "hash": "ec012cb60f552d7bc36af6443302a72af8afd14c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/-1_-1.xwmc",
+      "hash": "5404895a5df5ec5ab21ab607f029f3bacc7be51f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/-1_0.xwmc",
+      "hash": "6127520cdc878c80d635f3e50809fffee41789f8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/0_-1.xwmc",
+      "hash": "160c49b5d1451e429682ef2b12dabe4291c791ab",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/0_-2.xwmc",
+      "hash": "11973af40375d9b499a191a4ed1482d5a382d94d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/0_0.xwmc",
+      "hash": "9768795de2238f0237f8b6d2728a969a9d0419b8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/1_-1.xwmc",
+      "hash": "dd75529cba195792a1d37b4ed741fc13e944b022",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/1_-2.xwmc",
+      "hash": "96863c613e0cc6293402b134946456243ee8304b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/1_-3.xwmc",
+      "hash": "59521b45b7dfd84a9a982fe13207e7d5597eb878",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/1_0.xwmc.outdated",
+      "hash": "b14c5383c320b2518a6ac4b83e9b1efec3328746",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/1_1.xwmc",
+      "hash": "8ba9bfad20b198b11355c855135d5416615ced3e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/2_-1.xwmc",
+      "hash": "2b9a6dcdaedb0ce91109edf54b4f49d665267417",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/2_-2.xwmc",
+      "hash": "13d4438fd1ad757ac75aa519e4ad644292cbd1ce",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/2_-3.xwmc",
+      "hash": "eb8ceb0895214c71da3553c2dd5729dd835d936d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/2_0.xwmc",
+      "hash": "0e6d4f1d75f3436943e28128583e2413eea15239",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/2_1.xwmc",
+      "hash": "6e1ee9b880bced4109809fb8359df22144542aae",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/2_2.xwmc",
+      "hash": "0c95507bbade4873241a98e6ba7b4964cc1cc46b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/3_-2.xwmc",
+      "hash": "3ba09bf1db5dd1c9424f495d35d7d68753df93da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$910056764/cache_1/3_-3.xwmc",
+      "hash": "89457998860e6edc75a4b1d784053f9801f087b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/-1_-1.zip",
+      "hash": "e967337784bede1f395547856a2c0e6221df670f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/-1_0.zip",
+      "hash": "6f029494404b056490d5183322cfc820b0e0e1c4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/-2_-1.zip",
+      "hash": "9e08ce209ddf30294bd8f3bf181750c7433ba29a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/-2_0.zip",
+      "hash": "2ca686b01a1c88096155edb21de457f317bb04a1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/0_-1.zip",
+      "hash": "0c44ab91dcb91b355fefa9e6f8398445cb183571",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/0_0.zip",
+      "hash": "df231b4fa6b2b4b35b5b0f4eed3e8a522a09257e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache/1/-1_-1.xwmc",
+      "hash": "de7634ad5a4ea288fd7d4a35d3849c2754b07d24",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache/1/-1_0.xwmc",
+      "hash": "9eb35fa18e70ceb325d40cff5828b4719a5546fe",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache/1/0_-1.xwmc",
+      "hash": "6e8333de24d2b42e827105fca3ba39afbc9c6e4e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache/1/0_0.xwmc",
+      "hash": "92814821f24e801103dbab8cce76db0dd996e92a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache/2/-1_-1.xwmc",
+      "hash": "6bcb4fdfb5f9cad73b8c8299ff371b8ec440bc50",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache_1/-1_-1.xwmc",
+      "hash": "f4337def5758285f8fc5727de354db576ae3f9d8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache_1/-1_0.xwmc",
+      "hash": "1ac961b5475972e5bdcf14272b7e80f977e3e0a9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache_1/-2_-1.xwmc.outdated",
+      "hash": "516e77a0f5ead43cd930646f9f8a2591bfce2d21",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache_1/-2_0.xwmc.outdated",
+      "hash": "f2e4776347fbb1e41276505c99abba51e28b8c32",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache_1/0_-1.xwmc.outdated",
+      "hash": "7cae5a85bbc725ec76ffa2d570ac843e2e2e0781",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw$default/cache_1/0_0.xwmc.outdated",
+      "hash": "27eb26adbdd81105769aa669db1c8f48f915d3ef",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw-12,1,-1/-2_-1.zip",
+      "hash": "7ed0e93578cfab003412eb27152add6a4365e69c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw-12,1,-1/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/null/mw-12,1,-1/cache_1/-2_-1.xwmc.outdated",
+      "hash": "dd2b02776c6cc8ff80336fe5dd79a17165260b57",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_ddns.ganshity.top/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/-1_-1.zip",
+      "hash": "e98e38471fdca792c3212745fefcb594552c6ea4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/-1_0.zip",
+      "hash": "182014cd6dea728d6c7cab813c692dfbe46f60da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/1_-1.zip",
+      "hash": "3b3a31516157ad95bb86eb91d1b9351b98763f8c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/1_0.zip",
+      "hash": "60b8ee6cac1854c301752ca0e17c8efd36e804f1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/cache_1/-1_-1.xwmc.outdated",
+      "hash": "1f06a36834eb13f691106eebf71d4edbaa92b200",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/cache_1/-1_0.xwmc.outdated",
+      "hash": "eee49d1572fcf9f5b187d79268fb75e159f50948",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/cache_1/1_-1.xwmc.outdated",
+      "hash": "625d8f9dfb6446155920dc01a0a6d84143ae7c60",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$910056764/cache_1/1_0.xwmc.outdated",
+      "hash": "8ae4afd66e774dbfe2810e5522fa65e404f8c6ca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$default/-1_-1.zip",
+      "hash": "d149180e447f46c81490358d4ea674387b3340a6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$default/-1_0.zip",
+      "hash": "935683007e55b8952793da6c90cb2dfecd7f543b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$default/cache_1/-1_-1.xwmc.outdated",
+      "hash": "12a51b5ff81d2552d2f66dd2c7ac5f45af2cf21b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/null/mw$default/cache_1/-1_0.xwmc.outdated",
+      "hash": "795599298830ad863da594283ffc55645a37b266",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_jxk37.e2.luyouxia.net/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/null/dimension_config.txt",
+      "hash": "610efd0e8bbd9d48e6f0af415305ac9ea63201e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/null/mw$default/-1_0.zip",
+      "hash": "7b27ab54685677c38e50525893b66d850d24c81b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/null/mw$default/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/null/mw$default/0_0.zip",
+      "hash": "d17e6a170b7d1e7258c1d35b3c03dda234f240cb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/null/mw$default/cache_1/-1_0.xwmc.outdated",
+      "hash": "e1209c5bddfba364ab5684158fdccd3d62a1798b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/null/mw$default/cache_1/0_0.xwmc.outdated",
+      "hash": "ada6ae31288c69ba71665693bb4bdee6046861ff",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_play.simpfun.vip/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/Multiplayer_Unknown/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/null/.lock",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/null/cache_1/-1_-1.xwmc.outdated",
+      "hash": "9f1df51aef113b3dbdaa9725829beed69be822b1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/null/cache_1/-1_0.xwmc",
+      "hash": "5023cd66c09fa1d428fa4655b121ccdc6fc59b01",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/null/cache_1/0_-1.xwmc",
+      "hash": "b06f0bd0a394f659d77206b6da560dc76da5189c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/null/cache_1/0_0.xwmc",
+      "hash": "b30152cfa4e9b3098fcd8f735363fc7070cc0f7f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/null/dimension_config.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "XaeroWorldMap/新的世界/server_config.txt",
+      "hash": "20893dc67c452ff6d34e093ee03cd0031e345091",
+      "force": true,
+      "type": "addon"
+    }
+  ],
+  "settings": {
+    "install_mods": true,
+    "install_resourcepack": true
+  },
+  "launchInfo": {
+    "minMemory": 1145,
+    "launchArgument": [],
+    "javaArgument": [
+      "-server",
+      "-XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+      "-XX:+UnlockExperimentalVMOptions",
+      "-XX:+DisableExplicitGC",
+      "-Xverify:none",
+      "-XX:+UseParallelGC",
+      "-XX:MaxInlineSize\u003d420",
+      "-XX:+AlwaysPreTouch",
+      "-XX:+ParallelRefProcEnabled"
+    ]
+  }
+}
