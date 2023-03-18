@@ -1,0 +1,13 @@
+{
+  "configVersion": 2,
+  "sources": [
+    "minecraft",
+    "quilt"
+  ],
+  "gameVersion": "current",
+  "gameSide": "current",
+  "disableUI": false,
+  "loadJarsFromFolder": null,
+  "overrideMainClass": null,
+  "pinQuiltLoaderVersion": "0.18.5"
+}

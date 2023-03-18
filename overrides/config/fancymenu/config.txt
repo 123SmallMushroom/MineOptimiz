@@ -1,7 +1,5 @@
 ##[general]
 
-[Stop vanilla world music when in a customizable menu.]
-B:stopworldmusicwhencustomizable = 'false';
 [If menu background sounds added by FancyMenu should be played when a world is loaded.]
 B:playbackgroundsoundsinworld = 'false';
 B:forcefullscreen = 'false';
@@ -18,7 +16,7 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[loading]
@@ -41,8 +39,18 @@ B:customwindowicon = 'false';
 
 ##[world_loading_screen]
 
-B:showloadingscreenanimation = 'true';
-B:showloadingscreenpercent = 'true';
+B:showloadingscreenanimation = 'false';
+B:showloadingscreenpercent = 'false';
+
+
+##[multiplayer_screen]
+
+B:show_server_icons = 'true';
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';
 
 
 ##[layouteditor]
@@ -56,24 +64,10 @@ B:showvanillamovewarning = 'true';
 
 ##[ui]
 
+B:show_unicode_warning = 'false';
 F:uiscale = '2.0';
 
 
-##[mainmenu]
+##[compatibility]
 
-S:copyrightposition = 'bottom-right';
-B:hidebranding = 'true';
-S:copyrightcolor = '#ffffff';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'false';
-S:splashtextfile = '';
-S:splashorientation = 'original';
+B:allow_level_registry_interactions = 'false';

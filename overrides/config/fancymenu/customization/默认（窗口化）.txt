@@ -24,89 +24,149 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=604346%
   orientation = mid-centered
-  x = -234
+  x = 207
   action = movebutton
-  y = -23
+  y = 93
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -225
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 180
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -224
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 198
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 98
   action = movebutton
-  y = 94
+  y = 93
 }
 
 customization {
-  identifier = %id=502382%
-  width = 56
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 51
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = -234
+  x = 153
   action = movebutton
-  y = -47
+  y = 93
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -132
+  x = -225
   action = movebutton
-  y = 4
+  y = -43
 }
 
 customization {
-  identifier = %id=604346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   orientation = mid-centered
-  x = 209
+  x = -225
   action = movebutton
-  y = 94
+  y = 11
 }
 
 customization {
-  identifier = %id=604382%
-  orientation = mid-centered
-  x = 158
-  action = movebutton
-  y = 94
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 97
+  action = resizebutton
+  height = 20
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
-  x = -234
+  x = -123
   action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 138
+  action = deep_customization_element:title_screen_branding
+  actionid = a2eebc4d-106c-40a8-9429-eb086bba2e1a1675414156939
+  y = 284
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 353
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c7186244-d8bf-4c8c-acc8-d74021b998e61675414156942
+  y = 174
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 113
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = e0e201b1-e104-4f42-ba61-1e1050a62e061675414156943
   y = 30
+  height = 52
 }
 
 customization {
-  identifier = %id=400382%
-  width = 200
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=376382%
-  orientation = mid-centered
-  x = 183
-  action = movebutton
-  y = 94
-}
-
-customization {
-  identifier = %id=400346%
-  orientation = mid-centered
-  x = -234
-  action = movebutton
-  y = 4
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ac26322d-59c3-4145-bd4e-76273b12fc111675414156944
+  y = 0
+  height = 30
 }
 
 customization {
