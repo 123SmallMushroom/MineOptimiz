@@ -2,6 +2,6 @@ type = last_world
 
 last_world {
   is_server = true
-  world = ddns.ganshity.top:28103
+  world = 61.147.96.244:28103
 }
 
