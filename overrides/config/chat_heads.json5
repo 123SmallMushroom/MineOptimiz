@@ -1,0 +1,5 @@
+{
+	"offsetNonPlayerText": true,
+	"senderDetection": "HEURISTIC_ONLY",
+	"smartHeuristics": true
+}
