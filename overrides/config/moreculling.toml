@@ -1,0 +1,19 @@
+enableSodiumMenu = true
+cloudCulling = true
+signTextCulling = true
+useBlockStateCulling = true
+useCustomItemFrameRenderer = true
+itemFrameMapCulling = true
+useItemFrameLOD = true
+itemFrameLODRange = 175
+useItemFrame3FaceCulling = true
+itemFrame3FaceCullingRange = 12.0
+leavesCullingMode = "CHECK"
+leavesCullingAmount = 2
+includeMangroveRoots = true
+powderSnowCulling = true
+entityModelCulling = false
+useOnModdedBlocksByDefault = true
+
+[modCompatibility]
+minecraft = true
