@@ -22,6 +22,6 @@ jobs:
           git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
 
       - uses: actions/upload-artifact@v2
-         with:
-         name: v1.17.1-0.7.x-unknown.zip
-         path: /tmp/repo/v1.17.1-0.7.x-unknown.zip
+        with:
+          name: v1.17.1-0.7.x-unknown.zip
+          path: /tmp/repo/v1.17.1-0.7.x-unknown.zip
