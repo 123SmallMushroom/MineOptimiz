@@ -19,10 +19,15 @@ jobs:
           
       - name: Compress code
         run: |
-          git archive --output=myapp.zip HEAD
-
+          # Filter out .github directory and README.md file
+          git ls-files | grep -v -E '^((?!\.github|README\.md).)*$' | xargs git archive --format=zip --output=myapp.zip HEAD
+          
+      - name: Rename archive file
+        run: |
+          mv myapp.zip v1.17.1-0.7.x-unknown.zip
+          
       - name: Upload code
         uses: actions/upload-artifact@v2
         with:
-          name: myapp.zip
-          path: myapp.zip
+          name: v1.17.1-0.7.x-unknown.zip
+          path: v1.17.1-0.7.x-unknown.zip
