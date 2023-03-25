@@ -14,7 +14,7 @@ jobs:
       
       - name: Compress code
         run: zip -r myapp.zip .
-            -i Tiao-s-Modpack-For-Tiao-s-Server-1.17.1/**
+            -i Tiao-s-Modpack-For-Tiao-s-Server-1.17.1
       
       - name: Upload code
         uses: actions/upload-artifact@v2
