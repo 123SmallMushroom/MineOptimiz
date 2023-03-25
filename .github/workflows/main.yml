@@ -1,9 +1,6 @@
 name: Compress Code
 
 on:
-  push:
-    branches:
-      - 1.17.1
   workflow_dispatch:
 
 jobs:
