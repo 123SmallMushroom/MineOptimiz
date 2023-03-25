@@ -17,7 +17,7 @@ jobs:
           
       - run: |
           mkdir /tmp/repo
-          shopt -s extglob; cp -r !(.github|README.md) /tmp/repo
+          shopt -s extglob; rsync -r --exclude='.github' --exclude='README.md' ./ /tmp/repo/
           cd /tmp/repo
           git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
 
