@@ -3,7 +3,7 @@ name: Compress Code
 on:
   push:
     branches:
-      - main
+      - 1.17.1
 
 jobs:
   compress-code:
