@@ -17,6 +17,9 @@ jobs:
       - run: git config user.name "${{ github.actor }}"
         if: ${{ github.repository_owner != 'github-actions' }}
       
+      - name: Remove .github folder
+        run: rm -rf .github
+      
       - name: Compress code and create zip
         run: |
           git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
