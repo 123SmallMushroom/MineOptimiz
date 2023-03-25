@@ -10,26 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          repository: 123Small__Mushroom/Tiao-s-Modpack-For-Tiao-s-Server
-          ref: ${{ github.event.push.branch }}
-
-      - name: Set Up Git
-        run: |
+      
+      - run: |
           git config --global user.email "<youremail>"
           git config --global user.name "<yourname>"
           
-      - name: Copy Repository
-        run: |
+      - run: |
           mkdir /tmp/repo
-          cp -r ./* /tmp/repo/
-          rm -rf /tmp/repo/.github
-          rm -f /tmp/repo/README.md
+          shopt -s extglob; rsync -r --exclude='.github' --exclude='README.md' ./ /tmp/repo/
           cd /tmp/repo
           git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
-          
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v2
         with:
           name: v1.17.1-0.7.x-unknown.zip
           path: /tmp/repo/v1.17.1-0.7.x-unknown.zip
