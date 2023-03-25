@@ -19,7 +19,6 @@ jobs:
           
       - name: Compress code
         run: |
-          # Filter out .github directory and README.md file
           git ls-files | grep -v -E '^((?!\.github|README\.md).)*$' | xargs git archive --format=zip --output=myapp.zip HEAD
           
       - name: Rename archive file
