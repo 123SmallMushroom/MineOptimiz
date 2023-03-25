@@ -19,10 +19,20 @@ jobs:
           
       - name: Compress code
         run: |
-          git archive --output=myapp.zip HEAD
+          # 创建一个临时目录用于存储副本代码 
+          mkdir /tmp/repo
+          
+          # 拷贝当前工作目录下除了 .github 和 README.md 文件以外的所有文件到临时目录下
+          cp -r !(.github|README.md) /tmp/repo
+
+          # 进入到临时目录下
+          cd /tmp/repo
+          
+          # 通过 git archive 命令将当前目录下所有文件打包成指定名称的压缩包。
+          git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
 
       - name: Upload code
         uses: actions/upload-artifact@v2
         with:
-          name: myapp.zip
-          path: myapp.zip
+          name: v1.17.1-0.7.x-unknown.zip
+          path: v1.17.1-0.7.x-unknown.zip
