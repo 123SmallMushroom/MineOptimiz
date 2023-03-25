@@ -10,17 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
-      - run: |
-          git config --global user.email "<youremail>"
-          git config --global user.name "<yourname>"
           
-      - run: |
-          mkdir /tmp/repo
-          shopt -s extglob; rsync -r --exclude='.github' --exclude='README.md' ./ /tmp/repo/
-          cd /tmp/repo
+      - run: git config user.email "${{ github.actor }}@users.noreply.github.com"
+        if: ${{ github.repository_owner != 'github-actions' }}
+
+      - run: git config user.name "${{ github.actor }}"
+        if: ${{ github.repository_owner != 'github-actions' }}
+      
+      - name: Remove .github folder
+        run: rm -rf .github
+      
+      - name: Compress code and create zip
+        run: |
           git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
+      
       - uses: actions/upload-artifact@v2
         with:
           name: v1.17.1-0.7.x-unknown.zip
-          path: /tmp/repo/v1.17.1-0.7.x-unknown.zip
+          path: ./v1.17.1-0.7.x-unknown.zip
