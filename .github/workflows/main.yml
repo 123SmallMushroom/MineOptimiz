@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+        with:
+          repository: 123Small__Mushroom/Tiao-s-Modpack-For-Tiao-s-Server
+          ref: ${{ github.event.push.branch }}
+
       - name: Set Up Git
         run: |
           git config --global user.email "<youremail>"
