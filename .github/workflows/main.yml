@@ -1,0 +1,22 @@
+name: Compress Code
+
+on:
+  push:
+    branches:
+      - 1.17.1
+
+jobs:
+  compress-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Compress code
+        run: zip -r myapp.zip myapp
+      
+      - name: Upload code
+        uses: actions/upload-artifact@v2
+        with:
+          name: myapp.zip
+          path: myapp.zip
