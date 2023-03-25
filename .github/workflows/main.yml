@@ -20,9 +20,9 @@ jobs:
       
       - name: Compress code and create zip
         run: |
-          git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
+          git archive --output=v1.19.4-0.9.x-unknown.zip HEAD .
       
       - uses: actions/upload-artifact@v2
         with:
-          name: v1.17.1-0.7.x-unknown.zip
-          path: ./v1.17.1-0.7.x-unknown.zip
+          name: v1.19.4-0.9.x-unknown
+          path: ./v1.19.4-0.9.x-unknown.zip
