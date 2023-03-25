@@ -3,7 +3,7 @@ name: Compress Code
 on:
   push:
     branches:
-      - 1.17.1
+      - main
 
 jobs:
   compress-code:
@@ -13,7 +13,8 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Compress code
-        run: zip -r myapp.zip Tiao-s-Modpack-For-Tiao-s-Server-1.17.1
+        run: zip -r myapp.zip .
+            -i Tiao-s-Modpack-For-Tiao-s-Server-1.17.1/**
       
       - name: Upload code
         uses: actions/upload-artifact@v2
