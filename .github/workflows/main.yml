@@ -11,17 +11,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - run: |
+      - name: Set Up Git
+        run: |
           git config --global user.email "<youremail>"
           git config --global user.name "<yourname>"
           
-      - run: |
+      - name: Copy Repository
+        run: |
           mkdir /tmp/repo
-          shopt -s extglob; rsync -r --exclude='.github' --exclude='README.md' ./ /tmp/repo/
+          cp -r ./* /tmp/repo/
+          rm -rf /tmp/repo/.github
+          rm -f /tmp/repo/README.md
           cd /tmp/repo
           git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
-
-      - uses: actions/upload-artifact@v2
+          
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
         with:
           name: v1.17.1-0.7.x-unknown.zip
           path: /tmp/repo/v1.17.1-0.7.x-unknown.zip
