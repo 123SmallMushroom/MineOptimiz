@@ -1,4 +1,4 @@
-name: Compress Code
+name: Build Modpack
 
 on:
   workflow_dispatch:
