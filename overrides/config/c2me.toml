@@ -26,12 +26,12 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = "default"
+	# (Default: 2) No-tick view distance max concurrent chunk loads 
+	#  Lower this for a better latency and higher this for a faster loading
+	maxConcurrentChunkLoads = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
-	# (Default: 12) No-tick view distance updates per tick 
-	#  Lower this for a better latency and higher this for a faster loading
-	updatesPerTick = "default"
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
 
@@ -95,13 +95,6 @@ globalExecutorParallelism = "default"
 		# (Default: 32) Max render distance allowed in game options
 		maxViewDistance = "default"
 
-[asyncScheduling]
-	# (Default: true) Whether to enable async and parallel scheduling 
-	# This will reduce server thread load 
-	# (may cause incompatibility with other mods)
-	# 
-	enabled = "default"
-
 [threadedWorldGen]
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
@@ -109,6 +102,11 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to allow reducing lock radius 
 	# (may cause incompatibility with other mods)
 	reduceLockRadius = "default"
+	# (Default: true) Whether to enable async and parallel scheduling 
+	# This will reduce server thread load 
+	# (may cause incompatibility with other mods)
+	# 
+	asyncScheduling = "default"
 	# (Default: false) Whether to enable this feature
 	enabled = "default"
 

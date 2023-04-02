@@ -24,7 +24,7 @@
   "hidden_mods": [],
   "hidden_configs": [],
   "disable_update_checker": [],
-  "update_checker": false,
+  "update_checker": true,
   "button_update_badge": true,
   "quick_configure": true
 }

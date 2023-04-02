@@ -1,0 +1,93 @@
+{
+  "ALLConfigs": {
+    "cloudmusic.config.volume": 60,
+    "cloudmusic.config.play.url": false,
+    "cloudmusic.config.play.loop": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "cloudmusic.config.play.auto.random": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "cloudmusic.config.play.quality": "exhigh",
+    "cloudmusic.config.dj.radio.play.asc": false,
+    "cloudmusic.config.cache.path": "D:\\新建文件夹\\某下载器\\sb\\.minecraft\\cloud_music_cache",
+    "cloudmusic.config.cache.max.mb": 512,
+    "cloudmusic.config.cache.delete.mb": 126,
+    "cloudmusic.config.page.limit": 8,
+    "cloudmusic.config.music.info": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "cloudmusic.config.lyric": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "cloudmusic.config.music.info.x": 0,
+    "cloudmusic.config.music.info.y": 30,
+    "cloudmusic.config.music.info.color": "#4DE41318",
+    "cloudmusic.config.music.progress.bar.color": "#FF858585",
+    "cloudmusic.config.music.player.progress.bar.color": "#FFFF9600",
+    "cloudmusic.config.music.progress.font.color": "#00858585",
+    "cloudmusic.config.music.info.title.font.color": "#00FFFFFF",
+    "cloudmusic.config.music.info.font.color": "#00858585",
+    "cloudmusic.config.lyric.color": "#00FFFFFF",
+    "cloudmusic.config.lyric.scale": 1.5,
+    "cloudmusic.config.lyric.x": 0,
+    "cloudmusic.config.lyric.y": 0,
+    "cloudmusic.config.login.cookie": "",
+    "cloudmusic.config.login.country.code": 86,
+    "cloudmusic.config.login.qr.check.num": 10,
+    "cloudmusic.config.login.qr.check.time": 3,
+    "cloudmusic.config.http.max.retry": 3,
+    "cloudmusic.config.http.time.out": 30,
+    "cloudmusic.config.hotkey.open.config.gui": {
+      "keys": "LEFT_CONTROL,C,M"
+    },
+    "cloudmusic.config.hotkey.switch.play.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.play.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.next.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.prev.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.stop.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.exit.play": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.delete.play.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.trash.add.play.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.like.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.playlist.add.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.playlist.del.music": {
+      "keys": ""
+    },
+    "cloudmusic.config.hotkey.playlist.random": {
+      "keys": ""
+    }
+  }
+}
