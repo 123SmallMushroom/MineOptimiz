@@ -30,7 +30,7 @@ jobs:
       - name: Build Modpack
         run: |
           cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
-          zip -r ../v1.17.1-0.7.x-testpack-lite.mrpack ./*
+          zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-0.7.x-testpack-lite.mrpack ./*
       
       - uses: actions/upload-artifact@v2
         with:
