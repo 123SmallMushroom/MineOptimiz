@@ -12,9 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      run: git config --global user.email "2045704415@qq.com"
-      
-      run: git config --global user.name "123Smallushroom"
+      - name: Set git config
+        run: |
+          git config --global user.email "2045704415@qq.com"
+          git config --global user.name "123Smallushroom"
       
       - name: Remove .github folder
         run: rm -rf .github
