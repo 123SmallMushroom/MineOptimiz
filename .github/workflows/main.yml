@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  compress-code:
-    runs-on: ubuntu-latest
+  Build-Modpack:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
           
@@ -20,9 +20,19 @@ jobs:
       
       - name: Remove .github folder
         run: rm -rf .github
+        
+      - name: Remove .git folder
+        run: rm -rf .git
+        
+      - name: Remove README.md
+        run: |
+          cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
+          rm README.md
       
-      - name: Compress code
-        run: zip -r v1.17.1-0.7.x-testpack-lite.mrpack /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server
+      - name: Build Modpack
+        run: |
+          cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
+          zip -r ../v1.17.1-0.7.x-testpack-lite.mrpack ./*
       
       - uses: actions/upload-artifact@v2
         with:
