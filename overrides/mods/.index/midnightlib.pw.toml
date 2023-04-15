@@ -1,0 +1,14 @@
+name = "MidnightLib (Quilt)"
+filename = "midnightlib-0.4.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/codAaoxh/versions/0.4.4/midnightlib-0.4.4.jar"
+hash-format = "sha512"
+hash = "b576d378f0827103c7c6c49c65d5ac3e60ad0afa7341cd78b3553699f5908879553119d861205a2df31384154fcfbd2235fd00837f24774ba08478edfabe3e5e"
+
+[update]
+[update.modrinth]
+mod-id = "codAaoxh"
+version = "CRaHmCcJ"

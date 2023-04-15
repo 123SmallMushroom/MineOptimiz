@@ -1,7 +1,7 @@
 {
   "Generic": {
     "ignoredKeys": {
-      "keys": "LEFT_SUPER",
+      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",

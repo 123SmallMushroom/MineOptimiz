@@ -1,0 +1,14 @@
+name = "Clear Skies"
+filename = "clear-skies-fabric-mc117-2.0.89.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/xNK6XfRv/versions/fabric-mc117-2.0.89/clear-skies-fabric-mc117-2.0.89.jar"
+hash-format = "sha512"
+hash = "d1efaa778480a97d048b739b838c1f21f746d1f2dc69cc4a4594391faf192eea80bc6ac3b53db342d4f73d9aaaed52e486bb467ba30ac780822208655c55fc99"
+
+[update]
+[update.modrinth]
+mod-id = "xNK6XfRv"
+version = "zoOP15ln"

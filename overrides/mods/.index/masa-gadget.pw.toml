@@ -1,0 +1,14 @@
+name = "Masa Gadget"
+filename = "Masa‘ˆ«ø.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/SFO4Ca80/versions/jxmqdeMy/MasaGadget-3.1.289%2B1ca4352-stable.jar"
+hash-format = "sha512"
+hash = "2636b87d6e52b85bd526d036c9eb99e39570e55c1393ce8c05d14d58824beb4917941bfb84f768adb864661436911cbce21e311535e067f4aef629f837f187d3"
+
+[update]
+[update.modrinth]
+mod-id = "SFO4Ca80"
+version = "jxmqdeMy"

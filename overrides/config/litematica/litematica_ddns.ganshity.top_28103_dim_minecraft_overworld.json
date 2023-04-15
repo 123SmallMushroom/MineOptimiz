@@ -7,7 +7,7 @@
   "operation_mode": "SCHEMATIC_PLACEMENT",
   "render_range": {
     "mode": "ALL",
-    "axis": "Y",
+    "axis": "y",
     "layer_single": 0,
     "layer_above": 0,
     "layer_below": 0,
@@ -22,14 +22,14 @@
     "boxes": [
       {
         "pos1": [
-          0,
-          0,
-          0
+          1,
+          6,
+          1
         ],
         "pos2": [
-          0,
-          0,
-          0
+          1,
+          6,
+          1
         ],
         "name": "Unnamed"
       }

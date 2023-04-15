@@ -1,0 +1,14 @@
+name = "BetterF3"
+filename = "BetterF3-2.0.0-Fabric-1.17.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/8shC1gFX/versions/KNbHopYR/BetterF3-2.0.0-Fabric-1.17.1.jar"
+hash-format = "sha512"
+hash = "3ba5d5313c1c161e40ba6e6e5bb72b63caac35bad7d79e1bcadfc0888683ce45e076bbb27318747b99e63a88d81358f2eec143f0fc6a839fdad975ee5e997915"
+
+[update]
+[update.modrinth]
+mod-id = "8shC1gFX"
+version = "KNbHopYR"

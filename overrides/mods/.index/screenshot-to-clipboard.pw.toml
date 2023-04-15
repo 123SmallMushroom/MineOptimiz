@@ -1,0 +1,14 @@
+name = "Screenshot to Clipboard"
+filename = "screenshot-to-clipboard-1.0.8-fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/1KiJRrTg/versions/1.0.8%2Bfabric/screenshot-to-clipboard-1.0.8-fabric.jar"
+hash-format = "sha512"
+hash = "41010b9166c1b187471eaabe162ce48e8dd98a7b9bc6847de35efe48168c18d706e07d53e21980a06b6649d5d53150312462a47da64ae9553e1cefe26560980e"
+
+[update]
+[update.modrinth]
+mod-id = "1KiJRrTg"
+version = "i4G2CvuI"

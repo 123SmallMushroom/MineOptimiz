@@ -7,7 +7,7 @@
   "Generic": {
     "carpetAccuratePlacementProtocol": true,
     "clientPlacementRotation": true,
-    "fastLeftClickAllowTools": false,
+    "fastLeftClickAllowTools": true,
     "fastPlacementRememberOrientation": false,
     "freeCameraPlayerInputs": false,
     "freeCameraPlayerMovement": false,
@@ -984,7 +984,7 @@
       }
     },
     "disableChunkRendering": {
-      "keys": "F4",
+      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1008,7 +1008,7 @@
       }
     },
     "disableClientLightUpdates": {
-      "keys": "F6",
+      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1044,7 +1044,7 @@
       }
     },
     "disableEntityRendering": {
-      "keys": "F7",
+      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1360,7 +1360,7 @@
     "tweakAccurateBlockPlacement": false,
     "tweakAfterClicker": false,
     "tweakAimLock": false,
-    "tweakAngelBlock": true,
+    "tweakAngelBlock": false,
     "tweakBlockReachOverride": false,
     "tweakBlockTypeBreakRestriction": false,
     "tweakBreakingGrid": false,
@@ -1385,7 +1385,7 @@
     "tweakFlySpeed": false,
     "tweakFlexibleBlockPlacement": false,
     "tweakFreeCamera": false,
-    "tweakGammaOverride": true,
+    "tweakGammaOverride": false,
     "tweakHandRestock": false,
     "tweakHangableEntityBypass": false,
     "tweakHoldAttack": false,
