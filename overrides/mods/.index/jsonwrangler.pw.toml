@@ -1,0 +1,14 @@
+name = "JsonWrangler"
+filename = "jsonwrangler-1.19.4-quilt-0.1.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/XodEFO40/versions/dJAeYKPJ/jsonwrangler-1.19.4-quilt-0.1.2.jar"
+hash-format = "sha512"
+hash = "0ba04b36e59d011d153eac1b5e52a830cf664e3668827d565645dbb652c4db37dcc5bf9e45a272be283ed2cc8f4023f4c849af7e5e1b68832de010ceef333270"
+
+[update]
+[update.modrinth]
+mod-id = "XodEFO40"
+version = "dJAeYKPJ"

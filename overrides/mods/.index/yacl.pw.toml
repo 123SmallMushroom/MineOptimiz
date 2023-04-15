@@ -1,0 +1,14 @@
+name = "YetAnotherConfigLib"
+filename = "YetAnotherConfigLib-2.4.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/RLTQViRg/YetAnotherConfigLib-2.4.0.jar"
+hash-format = "sha512"
+hash = "3d3c2e608af52cb18e41efeab83552d39bcf65b69d4fc09f4c532a73926ea908ca119252ab3fbbd36cceab922b9ec7ca2ee35843ed03450db57457b5a1cd7c99"
+
+[update]
+[update.modrinth]
+mod-id = "1eAoo2KR"
+version = "RLTQViRg"

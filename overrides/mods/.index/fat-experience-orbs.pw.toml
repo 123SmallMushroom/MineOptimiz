@@ -1,0 +1,14 @@
+name = "fatxporbs"
+filename = "FatExperienceOrbs-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/dbigkc0P/versions/7TRX8gPX/FatExperienceOrbs-1.0.1.jar"
+hash-format = "sha512"
+hash = "c876011ebe578144f81d0e93af337bbbb349b4f009a56ccc703ff210c9ee33801b988db32389e5c5350ba197d4696c8ea7d73aec310d0883c1c3a89f0eb002fb"
+
+[update]
+[update.modrinth]
+mod-id = "dbigkc0P"
+version = "7TRX8gPX"

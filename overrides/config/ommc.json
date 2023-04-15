@@ -1,6 +1,6 @@
 {
   "generic": {
-    "sortInventoryShulkerBoxLast": "false",
+    "sortInventoryShulkerBoxLast": "auto",
     "parseWaypointFromChat": {
       "enabled": true,
       "hotkey": {
@@ -8,18 +8,18 @@
       }
     },
     "sortInventory": {
-      "keys": "R",
+      "keys": "M,I,F,S,D,LEFT_SHIFT,J,H",
       "settings": {
-        "activate_on": "PRESS",
+        "activate_on": "RELEASE",
         "context": "GUI",
-        "allow_empty": false,
+        "allow_empty": true,
         "allow_extra_keys": false,
         "order_sensitive": true,
         "exclusive": false,
         "cancel": true
       }
     },
-    "dontClearChatHistory": true,
+    "dontClearChatHistory": false,
     "sortInventorySupportEmptyShulkerBoxStack": {
       "enabled": false,
       "hotkey": {
@@ -28,7 +28,7 @@
     },
     "debug": false,
     "clearWaypoint": {
-      "keys": "EQUAL",
+      "keys": "C",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -91,9 +91,9 @@
       }
     },
     "disableBlocklistCheck": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
-        "keys": "true"
+        "keys": "false"
       }
     },
     "disableBreakBlock": {

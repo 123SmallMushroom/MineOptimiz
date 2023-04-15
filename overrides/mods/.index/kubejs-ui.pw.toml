@@ -1,0 +1,14 @@
+name = "KubeJS UI"
+filename = "kubejs-ui-fabric-1902.1.9-build.25.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d746cf93ecb048d396bbae212f521ebdc376e4ed"
+
+[update]
+[update.curseforge]
+file-id = 4074744
+project-id = 423490

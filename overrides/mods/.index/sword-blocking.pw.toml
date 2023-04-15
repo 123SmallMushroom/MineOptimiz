@@ -1,0 +1,14 @@
+name = "Sword Blocking"
+filename = "swordblocking-1.1.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/4q52b4lD/versions/1.1.0/swordblocking-1.1.0.jar"
+hash-format = "sha512"
+hash = "424e1b8f128610aaf0cffeb092c2bc6eb0cc1868df66b808bf1bfa755b81a2bb639cfab1484bbc2da1aba6a474e3f9b306e1adf19caa4e06b7d316426a77c02e"
+
+[update]
+[update.modrinth]
+mod-id = "4q52b4lD"
+version = "oflvkCWw"

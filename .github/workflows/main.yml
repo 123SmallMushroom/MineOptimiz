@@ -1,6 +1,9 @@
 name: Build Modpack
 
 on:
+  push:
+    branches:
+      - 1.17.1
   workflow_dispatch:
 
 jobs:
@@ -8,21 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-          
-      - run: git config user.email "${{ github.actor }}@users.noreply.github.com"
-        if: ${{ github.repository_owner != 'github-actions' }}
-
-      - run: git config user.name "${{ github.actor }}"
-        if: ${{ github.repository_owner != 'github-actions' }}
+      
+      run: git config --global user.email "2045704415@qq.com"
+      
+      run: git config --global user.name "123Smallushroom"
       
       - name: Remove .github folder
         run: rm -rf .github
       
-      - name: Compress code and create zip
-        run: |
-          git archive --output=v1.17.1-0.7.x-unknown.zip HEAD .
+      - name: Compress code
+        run: zip -r v1.17.1-0.7.x-testpack-lite.mrpack /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server
       
       - uses: actions/upload-artifact@v2
         with:
-          name: v1.17.1-0.7.x-unknown.zip
-          path: ./v1.17.1-0.7.x-unknown.zip
+          name: v1.17.1-0.7.x-testpack-lite.mrpack
+          path: ./v1.17.1-0.7.x-testpack-lite.mrpack

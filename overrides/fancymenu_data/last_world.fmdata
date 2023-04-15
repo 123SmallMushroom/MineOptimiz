@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = true
-  world = ddns.ganshity.top:28103
-}
-

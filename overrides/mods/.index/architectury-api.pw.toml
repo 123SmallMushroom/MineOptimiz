@@ -1,0 +1,14 @@
+name = "Architectury"
+filename = "architectury-2.10.12.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/2.10.12%2Bfabric/architectury-2.10.12.jar"
+hash-format = "sha512"
+hash = "2bfa4d6548de0a58e7c8b30492094cc21852a39a646b694a27bfb1e2d2dfccbf3d025e7ae75a09952d6c3bbf73a74e3811590c5d07feb07e6f80e96900aaee7e"
+
+[update]
+[update.modrinth]
+mod-id = "lhGA9TYQ"
+version = "yekAuTSi"
