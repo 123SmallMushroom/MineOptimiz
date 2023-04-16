@@ -7,6 +7,9 @@
             "value": false
         },
         "enable_lock_slots_per_server": false,
+        "enable_auto_refill": {
+            "value": false
+        },
         "for_modpack_devs": true,
         "first_run": false
     },

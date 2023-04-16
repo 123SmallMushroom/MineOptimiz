@@ -1,0 +1,14 @@
+name = "Xaero's Minimap"
+filename = "Xaeros小地图.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b2640382d1caa6a1a2a155ae811de2c109905396"
+
+[update]
+[update.curseforge]
+file-id = 4440701
+project-id = 263420

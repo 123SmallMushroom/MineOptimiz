@@ -1,0 +1,5 @@
+{
+  "memoryClearCommand": true,
+  "autoMemoryClear": true,
+  "autoMemoryClearTime": 8
+}

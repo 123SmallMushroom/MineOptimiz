@@ -1,0 +1,14 @@
+name = "🗿QuiltGoSlightlyFasterLol🗿"
+filename = "quiltgoslightlyfasterlol-0.0.3.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/iMXOaPNg/versions/GcZorRt4/quiltgoslightlyfasterlol-0.0.3.jar"
+hash-format = "sha512"
+hash = "b40e40331e3eea040f8e740cedb780dd2069f7548ea8231eb2ef9a22e7768bcd772d77d3c2717535c505ff93c9202d360a5d1c02f28aa1cd3eaa32f6849b9a81"
+
+[update]
+[update.modrinth]
+mod-id = "iMXOaPNg"
+version = "GcZorRt4"

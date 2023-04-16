@@ -1,6 +1,6 @@
 {
   "ALLConfigs": {
-    "cloudmusic.config.volume": 60,
+    "cloudmusic.config.volume": 70,
     "cloudmusic.config.play.url": false,
     "cloudmusic.config.play.loop": {
       "enabled": false,
@@ -44,7 +44,7 @@
     "cloudmusic.config.lyric.scale": 1.5,
     "cloudmusic.config.lyric.x": 0,
     "cloudmusic.config.lyric.y": 0,
-    "cloudmusic.config.login.cookie": "",
+    "cloudmusic.config.login.cookie": "MUSIC_A_T\u003d1672548549164; MUSIC_R_T\u003d1672548549545; __csrf\u003d601b9d040e95cad5ecb39596f8091faf; MUSIC_SNS\u003d; MUSIC_U\u003dad696937199c091aeb79a1fce5667f960485ff7b6a8c1f96e9d31e9f725d8ea8993166e004087dd32371041b555ff6c18c22b6f8aa874ff30beeb47d00fa9cad72e4104895d3959a7a561ba977ae766d; __remember_me\u003dtrue; NMTID\u003d00OfAHNejOaST6440VjgB2VL5GJUUQAAAGHYMxbmw; ",
     "cloudmusic.config.login.country.code": 86,
     "cloudmusic.config.login.qr.check.num": 10,
     "cloudmusic.config.login.qr.check.time": 3,

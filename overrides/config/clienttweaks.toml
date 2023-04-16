@@ -12,7 +12,7 @@ offhandTorchWithToolOnly = false
 disableStepAssist = false
 disableLogStripping = false
 masterVolumeSlider = true
-musicVolumeSlider = true
+musicVolumeSlider = false
 paneBuildingSupport = true
 noRecipeBookShifting = false
 [customization]

@@ -718,7 +718,7 @@
     "tweakAccurateBlockPlacement": false,
     "tweakAfterClicker": false,
     "tweakAimLock": false,
-    "tweakAngelBlock": true,
+    "tweakAngelBlock": false,
     "tweakBlockReachOverride": false,
     "tweakBlockTypeBreakRestriction": false,
     "tweakBreakingGrid": false,
