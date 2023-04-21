@@ -1,14 +1,14 @@
 name = "Inventory Profiles Next"
-filename = "InventoryProfilesNext-fabric-1.19.4-1.9.5.jar"
+filename = "R ¼üÕûÀí.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "ff6b427a6c01fde1085c98108f60a200b76a1b0f"
+mode = "url"
+url = "https://cdn.modrinth.com/data/O7RBXm3n/versions/FiRZrXWs/InventoryProfilesNext-fabric-1.19.4-1.9.5.jar"
+hash-format = "sha512"
+hash = "940c13f39c307251bbcc6d954007a1f100285515919251e10286f231c3e1e43bf4dc96d7b1c742bc394236d043bd9830515c000c2c17e6c0b5cc3ea1666793da"
 
 [update]
-[update.curseforge]
-file-id = 4469000
-project-id = 495267
+[update.modrinth]
+mod-id = "O7RBXm3n"
+version = "FiRZrXWs"

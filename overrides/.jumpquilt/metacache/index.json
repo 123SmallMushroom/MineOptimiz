@@ -1,0 +1,12 @@
+{
+  "minecraft": {
+    "gameVersion": "1.19.4",
+    "side": "client",
+    "os": "windows"
+  },
+  "quilt": {
+    "gameVersion": "1.19.4",
+    "side": "client",
+    "pinnedQuiltVersion": "0.19.0-beta.12"
+  }
+}
