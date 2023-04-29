@@ -23,14 +23,18 @@
       "sessionRoot": "https://sessionserver.mojang.com/"
     },
     {
+      "name": "LittleSkin",
+      "type": "Legacy",
+      "checkPNG": true,
+      "skin": "https://littleskin.cn/skin/{USERNAME}.png",
+      "model": "auto",
+      "cape": "https://littleskin.cn/cape/{USERNAME}.png",
+      "elytra": "LocalSkin/elytras/{USERNAME}.png"
+    },
+    {
       "name": "ͳһͨ��֤",
       "type": "CustomSkinAPI",
       "root": "https://auth2.nide8.com:233/89a13930ff3711eb9cdc00163e095b49/csl/"
-    },
-    {
-      "name": "LittleSkin",
-      "type": "CustomSkinAPI",
-      "root": "https://littleskin.cn/csl/"
     },
     {
       "name": "VlssuSkin",
@@ -42,17 +46,6 @@
       "type": "CustomSkinAPI",
       "root": "https://www.mcpeau.com/csl/"
     },
-    {
-      "name": "LittleSkin",
-      "type": "CustomSkinAPI",
-      "root": "https://littleskin.cn/csl/"
-    },
-    {
-      "name": "Mojang",
-      "type": "MojangAPI",
-      "apiRoot": "https://api.mojang.com/",
-      "sessionRoot": "https://sessionserver.mojang.com/"
-    }
   ],
   "enableDynamicSkull": true,
   "enableTransparentSkin": true,
