@@ -1,0 +1,14 @@
+name = "Mod Menu"
+filename = "modmenu-6.2.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/yjjsLqbS/modmenu-6.2.1.jar"
+hash-format = "sha512"
+hash = "b9e293a119c8ced8cdf38ec2f3cb68a731cb136986982c835198eeb4266076080b840ed97bae74f177ca9ae711e0db78630e4e42b2930389e1be1813eb76860f"
+
+[update]
+[update.modrinth]
+mod-id = "mOgUt4GM"
+version = "yjjsLqbS"
