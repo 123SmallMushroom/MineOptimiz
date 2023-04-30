@@ -3,7 +3,7 @@ name: Build Modpack
 on:
   push:
     branches:
-      - 1.19.4-full
+      - 1.19.4-full-dev
   workflow_dispatch:
 
 env:
