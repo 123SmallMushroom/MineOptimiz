@@ -33,7 +33,7 @@ jobs:
           name: v1.17.1-0.7.x-testpack-lite.mrpack
           path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-0.7.x-testpack-lite.mrpack
 
-   Test-Modpack:
+  Test-Modpack:
      runs-on: windows-10
      needs: Build-Modpack
      steps:
@@ -41,8 +41,8 @@ jobs:
          with:
            name: v1.17.1-0.7.x-testpack-lite.mrpack
 
-      - name: Install Java
-        uses: actions/setup-java@v2
+       - name: Install Java
+         uses: actions/setup-java@v2
          with:
           java-version: '17'
           distribution: 'Liberica'
