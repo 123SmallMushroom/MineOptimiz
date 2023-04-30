@@ -34,7 +34,7 @@ jobs:
           path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-0.7.x-testpack-lite.mrpack
 
   Test-Modpack:
-     runs-on: windows-10
+     runs-on: windows-2019
      needs: Build-Modpack
      steps:
        - uses: actions/download-artifact@v2
