@@ -53,6 +53,7 @@ jobs:
          with:
            arch: aarch64
            distro: archarm_latest
+           base_image: archlinux:latest
            run: |
             yay -S cmcl
             cmcl modpack --file=v1.17.1-0.7.x-testpack-lite.mrpack
