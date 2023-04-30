@@ -10,16 +10,7 @@ jobs:
   Build-Modpack:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
-        with:
-          path: modpack
-      
-      - uses: actions/cache@v2
-        with:
-          path: ${{ env.ZIP_PATH }}
-          key: ${{ runner.os }}-${{ env.ZIP_NAME }}-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.ZIP_NAME }}-
+      - uses: actions/checkout@v2     
       
       - run: git config user.email "${{ github.actor }}@users.noreply.github.com"
         if: github.event_name == 'push'
@@ -28,7 +19,6 @@ jobs:
         if: github.event_name == 'push'
       
       - name: Build Modpack
-        working-directory: modpack
         run: |
           rm -rf .github
           rm -rf .git
