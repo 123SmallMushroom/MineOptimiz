@@ -6,10 +6,6 @@ on:
       - 1.19.4-full-dev
   workflow_dispatch:
 
-env:
-  ZIP_NAME: v1.19.4-0.9.x-${{ github.event.repository.updated_at }}-full.mrpack
-  ZIP_PATH: ${{ github.workspace }}/${{ env.ZIP_NAME }}
-
 jobs:
   Build-Modpack:
     runs-on: ubuntu-20.04
@@ -37,22 +33,20 @@ jobs:
           rm -rf .github
           rm -rf .git
           rm README.md
-          zip -r ${{ env.ZIP_PATH }} ./*
+          cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
+          zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack ./*
       
       - uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.ZIP_NAME }}
-          release_name: ${{ env.ZIP_NAME }}
+          release_name: v1.19.4-DEV-${{ github.event.repository.updated_at }}-full
           draft: false
-          prerelease: false
+          prerelease: true
       
       - uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ env.ZIP_PATH }}
-          asset_name: ${{ env.ZIP_NAME }}
+          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack
+          asset_name: v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack
           asset_content_type: application/zip
