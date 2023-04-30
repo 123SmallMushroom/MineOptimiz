@@ -16,23 +16,17 @@ jobs:
         if: ${{ github.repository_owner != 'github-actions' }}
 
       - run: git config user.name "${{ github.actor }}"
-        if: ${{ github.repository_owner != 'github-actions' }}
-      
-      - name: Remove .github folder
-        run: rm -rf .github
-        
-      - name: Remove .git folder
-        run: rm -rf .git
-        
-      - name: Remove README.md
-        run: rm README.md
+        if: ${{ github.repository_owner != 'github-actions' }}   
       
       - name: Build Modpack
         run: |
+          rm -rf .github
+          rm -rf .git
+          rm README.md
           cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
           zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-0.9.x-testpack-lite.mrpack ./*
       
       - uses: actions/upload-artifact@v2
         with:
-          name: v1.19.4-0.9.x-testpack-lite.mrpack
+          name: v1.19.4-0.9.x-testpack-full.mrpack
           path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-0.9.x-testpack-lite.mrpack
