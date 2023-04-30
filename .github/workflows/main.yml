@@ -34,7 +34,7 @@ jobs:
           path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-0.7.x-testpack-lite.mrpack
 
   Test-Modpack:
-     runs-on: archlinux-latest
+     runs-on: ubuntu-latest
      needs: Build-Modpack
      steps:
        - uses: actions/download-artifact@v2
@@ -48,11 +48,15 @@ jobs:
           distribution: 'adopt'
 
 
-       - name: Test Modpack
-         run: |
-           yay -S cmcl
-           cmcl modpack --file=v1.17.1-0.7.x-testpack-lite.mrpack
-           test
-           cmcl account --login=offline --name=TEST -s
-           cmcl test
+       - name: Run on archlinux
+         uses: uraimo/run-on-arch-action@v2.0.5
+         with:
+           arch: aarch64
+           distro: archarm_latest
+           run: |
+            yay -S cmcl
+            cmcl modpack --file=v1.17.1-0.7.x-testpack-lite.mrpack
+            test
+            cmcl account --login=offline --name=TEST -s
+            cmcl test
 
