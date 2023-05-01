@@ -10,5 +10,5 @@ cd ..
 cd /d ..
 cd ..
 dir
-powershell Compress-Archive -Path .\ -DestinationPath modpack.zip
+powershell Compress-Archive -Path ..\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath modpack.zip
 cmd ren modpack.zip modpack.mrpack
