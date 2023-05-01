@@ -12,7 +12,14 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v2     
-
+      
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "Asia/Shanghai"
+          timezoneWindows: "China Standard Time"
+          timezoneMacos: "Asia/Shanghai"
+  
       - name: Get current date and time
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d-%H-%M')"
