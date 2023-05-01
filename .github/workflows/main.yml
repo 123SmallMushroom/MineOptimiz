@@ -19,8 +19,12 @@ jobs:
       - run: git config user.email "${{ github.actor }}@users.noreply.github.com"
         if: github.event_name == 'push'
       
-      - run: git config user.name "${{ github.actor }}"
+      - run: git config user.name "${{ github.actor }}
         if: github.event_name == 'push'
+      
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       
       - name: Build Modpack
         run: |
@@ -28,22 +32,24 @@ jobs:
           rm -rf .git
           rm README.md
           cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
-          zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack ./*
+          zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack ./*
+          
       
       - uses: actions/create-release@v1
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          release_name: v1.19.4-DEV-${{ github.event.repository.updated_at }}-full
+          release_name: v1.19.4-DEV-${{ steps.date.outputs.date }}-full
           draft: false
           prerelease: true
-          tag_name: DEV-${{ github.event.repository.updated_at }}
+          tag_name: DEV-BUILD-${{ steps.date.outputs.date }}
       
       - uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack
-          asset_name: v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack
+          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
+          asset_name: v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
           asset_content_type: application/zip
