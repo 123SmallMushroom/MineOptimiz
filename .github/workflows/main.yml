@@ -35,10 +35,10 @@ jobs:
         env: 
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-           release_name: Release ${{ steps.date.outputs.date }}
+           release_name: v1.19.4-DEV-BUILD-${{ steps.date.outputs.date }}
            draft: false
            prerelease: true
-           tag_name: v${{ steps.date.outputs.date }}
+           tag_name: DEV-BUILD-${{ steps.date.outputs.date }}
 
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
@@ -46,6 +46,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack
-          asset_name: v1.19.4-DEV-${{ github.event.repository.updated_at }}-full.mrpack
+          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
+          asset_name: v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
           asset_content_type: application/zip
