@@ -9,5 +9,6 @@ cmd rmdir /s fancymenu
 cmd cd ..
 cd /d ..
 cd ..
+cd ..
 powershell Compress-Archive -Path Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath modpack.zip
 cmd ren modpack.zip modpack.mrpack
