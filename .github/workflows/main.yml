@@ -43,7 +43,7 @@ jobs:
           path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
      
   Build-Lite-Modpack: 
-    runs-on: windows-2016
+    runs-on: windows-2019
     steps:
       - uses: actions/checkout@v2
       
