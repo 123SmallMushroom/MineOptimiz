@@ -75,7 +75,7 @@ jobs:
       
       - uses: actions/upload-artifact@v2
         with:
-          name: v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
+          name: v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
           path: D:\a\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server\v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
     
     
