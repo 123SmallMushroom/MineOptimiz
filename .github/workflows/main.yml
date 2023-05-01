@@ -32,9 +32,9 @@ jobs:
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
-         env: 
+        env: 
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-         with:
+        with:
            release_name: Release ${{ steps.date.outputs.date }}
            draft: false
            prerelease: true
