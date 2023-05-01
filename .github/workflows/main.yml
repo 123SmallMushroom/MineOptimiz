@@ -60,6 +60,7 @@ jobs:
       
       - name: Build Lite Modpack
         run: |
+          dir
           rmdir /s .github
           rmdir /s .git
           del README.md
