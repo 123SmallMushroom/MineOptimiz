@@ -6,8 +6,10 @@ cmd del server.dat
 cmd del wallhaven-e7651w_1600x1024.png
 cmd cd /d config
 cmd rmdir /s fancymenu
+dir
 cmd cd ..
 cd /d ..
 cd ..
+dir
 powershell Compress-Archive -Path .\ -DestinationPath modpack.zip
 cmd ren modpack.zip modpack.mrpack
