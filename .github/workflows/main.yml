@@ -42,31 +42,39 @@ jobs:
           name: v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
           path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
      
-  Build-Lite-Modpack: 
-    runs-on: windows-2019
-    steps:
-      - uses: actions/checkout@v2
-      
-      - name: Set Timezone
-        uses: szenius/set-timezone@v1.2
-        with:
-          timezoneLinux: "Asia/Shanghai"
-          timezoneWindows: "China Standard Time"
-          timezoneMacos: "Asia/Shanghai"
-        
-      - name: Get current date and time
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d-%H-%M')"
-      
-      - name: Build Lite Modpack
-        run: |
-          cmd start Build-Lite-Modpack.bat
-          Compress-Archive -Path D:\a\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.zip
-          cmd ren modpack.mrpack D:\a\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server\v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
-          
-      - uses: actions/upload-artifact@v2
-        with:
-          name: v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
-          path: v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
+    Build-Lite-Modpack: 
+     runs-on: ubuntu-20.04
+     steps:
+     - uses: actions/checkout@v2
     
+     - name: Set Timezone
+       uses: szenius/set-timezone@v1.2
+       with:
+         timezoneLinux: "Asia/Shanghai"
+         timezoneWindows: "China Standard Time"
+         timezoneMacos: "Asia/Shanghai"
+      
+     - name: Get current date and time
+       id: date
+       run: echo "::set-output name=date::$(date +'%Y-%m-%d-%H-%M')"
+    
+     - name: Build Lite Modpack
+       run: |
+        rm -rf .github
+        rm -rf .git
+        rm README.md
+        cd overrides
+        rm server.dat
+        rm wallhaven-e7651w_1600x1024.png
+        cd config
+        rm -rf fancymenu
+        cd ../..
+        ls
+        zip -r modpack.zip Tiao-s-Modpack-For-Tiao-s-Server
+        mv modpack.zip modpack.mrpack
+        
+     - uses: actions/upload-artifact@v2
+       with:
+        name: v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
+        path: v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
     
