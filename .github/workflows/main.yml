@@ -60,20 +60,19 @@ jobs:
       
       - name: Build Lite Modpack
         run: |
-          dir
-          rmdir /s .github
-          rmdir /s .git
-          del README.md
-          cd /d overrides
-          del server.dat
-          del wallhaven-e7651w_1600x1024.png
+          cmd rmdir /s .github
+          cmd rmdir /s .git
+          cmd del README.md
+          cmd cd /d overrides
+          cmd del server.dat
+          cmd del wallhaven-e7651w_1600x1024.png
           cd /d config
           rmdir /s fancymenu
           cd ..
           cd ..
           cd ..
           powershell Compress-Archive -Path .\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath .\v1.19.4-DEV-${{ steps.date.outputs.date }}-full.zip
-          ren .\v1.19.4-DEV-${{ steps.date.outputs.date }}-full.zip v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
+          cmd ren .\v1.19.4-DEV-${{ steps.date.outputs.date }}-full.zip v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
       
       - uses: actions/upload-artifact@v2
         with:
