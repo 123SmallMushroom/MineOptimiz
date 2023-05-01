@@ -69,7 +69,7 @@ jobs:
           cmd cd /d config
           cmd rmdir /s fancymenu
           cmd cd D:\a\Tiao-s-Modpack-For-Tiao-s-Server
-          Compress-Archive -Path .\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.zip
+          Compress-Archive -Path D:\a\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.zip
           cmd ren v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.zip D:\a\Tiao-s-Modpack-For-Tiao-s-Server\Tiao-s-Modpack-For-Tiao-s-Server\v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
           cmd cd /d Tiao-s-Modpack-For-Tiao-s-Server
       - uses: actions/upload-artifact@v2
