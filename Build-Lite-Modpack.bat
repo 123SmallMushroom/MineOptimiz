@@ -1,13 +1,12 @@
-cmd rmdir /s .github
-cmd rmdir /s .git
-cmd del README.md
-cmd cd /d overrides
-cmd del server.dat
-cmd del wallhaven-e7651w_1600x1024.png
-cmd cd /d config
-cmd rmdir /s fancymenu
-dir
-cmd cd ..
+rmdir /s .github
+rmdir /s .git
+del README.md
+cd /d overrides
+del server.dat
+del wallhaven-e7651w_1600x1024.png
+cd /d config
+rmdir /s fancymenu
+cd ..
 cd /d ..
 cd ..
 dir
