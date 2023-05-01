@@ -67,10 +67,10 @@ jobs:
           cmd del server.dat
           cmd del wallhaven-e7651w_1600x1024.png
           cmd cd /d config
-          rmdir /s fancymenu
+          cmd rmdir /s fancymenu
           cmd cd ..
           cmd cd ..
-          powershell Compress-Archive -Path .\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath .\v1.19.4-DEV-${{ steps.date.outputs.date }}-full.zip
+          Compress-Archive -Path .\Tiao-s-Modpack-For-Tiao-s-Server -DestinationPath .\v1.19.4-DEV-${{ steps.date.outputs.date }}-full.zip
           cmd ren .\v1.19.4-DEV-${{ steps.date.outputs.date }}-full.zip v1.19.4-DEV-${{ steps.date.outputs.date }}-full.mrpack
       
       - uses: actions/upload-artifact@v2
