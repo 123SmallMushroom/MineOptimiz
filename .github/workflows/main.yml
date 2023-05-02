@@ -69,8 +69,11 @@ jobs:
         cd config
         rm -rf fancymenu
         cd ../..
-        zip -r modpack.zip Tiao-s-Modpack-For-Tiao-s-Server
-        mv modpack.zip modpack.mrpack
+        cd ../..
+        cd ../..
+        cd ../..
+        zip -r modpack.zip ./Tiao-s-Modpack-For-Tiao-s-Server
+        mv modpack.zip v1.19.4-DEV-${{ steps.date.outputs.date }}-lite.mrpack
         
      - uses: actions/upload-artifact@v2
        with:
