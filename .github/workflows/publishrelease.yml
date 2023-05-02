@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build-Modpack:
+  Build-Full-Modpack:
     runs-on: ubuntu-20.04
     permissions:
       issues: write
@@ -56,9 +56,11 @@ jobs:
 
   Build-Lite-Modpack: 
      runs-on: ubuntu-20.04
-     steps:
-     - uses: actions/checkout@v2
-    
+     permissions:
+       issues: write
+       pull-requests: write
+       contents: write
+     steps:    
      - name: Set Timezone
        uses: szenius/set-timezone@v1.2
        with:
@@ -74,7 +76,7 @@ jobs:
        run: |
         rm -rf .github
         rm -rf .git
-        rm README.md
+        rm -f README.md
         cd overrides
         rm servers.dat
         rm wallhaven-e7651w_1600x1024.png
