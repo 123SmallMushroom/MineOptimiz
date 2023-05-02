@@ -56,6 +56,10 @@ jobs:
 
   Build-Lite-Modpack: 
      runs-on: ubuntu-20.04
+     permissions:
+       issues: write
+       pull-requests: write
+       contents: write
      steps:
      - uses: actions/checkout@v2
     
