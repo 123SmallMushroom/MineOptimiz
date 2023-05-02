@@ -66,6 +66,8 @@ jobs:
         cd overrides
         rm servers.dat
         rm wallhaven-e7651w_1600x1024.png
+        rm -rf XaeroWaypoints
+        rm -rf XaeroWorldMap
         cd config
         rm -rf fancymenu
         cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/    
