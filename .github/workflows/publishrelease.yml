@@ -87,12 +87,23 @@ jobs:
         cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/    
         zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-DEV-${{ steps.date.outputs.date }}-lite.mrpack ./*
 
-     - name: Upload Release Asset
-       uses: actions/upload-release-asset@v1
-       env: 
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env: 
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+           release_name: v1.17.1-DEV-BUILD-${{ steps.date.outputs.date }}
+           draft: false
+           prerelease: true
+           tag_name: DEV-BUILD-${{ steps.date.outputs.date }}
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       with:
-          upload_url: https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/releases/tag/DEV-BUILD-${{ steps.date.outputs.date }}
-          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-DEV-${{ steps.date.outputs.date }}-lite.mrpack
-          asset_name: v1.17.1-DEV-${{ steps.date.outputs.date }}-lite.mrpack
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-DEV-${{ steps.date.outputs.date }}-full.mrpack
+          asset_name: v1.17.1-DEV-${{ steps.date.outputs.date }}-full.mrpack
           asset_content_type: application/zip
