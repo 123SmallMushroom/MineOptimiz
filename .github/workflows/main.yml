@@ -64,12 +64,11 @@ jobs:
         rm -rf .git
         rm README.md
         cd overrides
-        rm server.dat
+        rm servers.dat
         rm wallhaven-e7651w_1600x1024.png
         cd config
         rm -rf fancymenu
         cd ../..
-        ls
         zip -r modpack.zip Tiao-s-Modpack-For-Tiao-s-Server
         mv modpack.zip modpack.mrpack
         
