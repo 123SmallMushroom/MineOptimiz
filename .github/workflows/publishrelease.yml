@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build-Modpack:
+  Build-Full-Modpack:
     runs-on: ubuntu-20.04
     permissions:
       issues: write
@@ -76,7 +76,7 @@ jobs:
        run: |
         rm -rf .github
         rm -rf .git
-        rm README.md
+        rm -f README.md
         cd overrides
         rm servers.dat
         rm wallhaven-e7651w_1600x1024.png
