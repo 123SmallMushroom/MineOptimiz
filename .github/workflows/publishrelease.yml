@@ -90,7 +90,7 @@ jobs:
        env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/releases/tag/DEV-BUILD-${{ steps.date.outputs.date }}
           asset_path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.17.1-DEV-${{ steps.date.outputs.date }}-lite.mrpack
           asset_name: v1.17.1-DEV-${{ steps.date.outputs.date }}-lite.mrpack
           asset_content_type: application/zip
