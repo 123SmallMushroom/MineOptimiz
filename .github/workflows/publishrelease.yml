@@ -91,12 +91,12 @@ jobs:
        id: create_release
        uses: actions/create-release@v1
        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        with:
-          release_name: v1.17.1-DEV-BUILD-${{ steps.date.outputs.date }}-lite
-          draft: false
-          prerelease: true
-          tag_name: DEV-BUILD-${{ steps.date.outputs.date }}-lite
+         release_name: v1.17.1-DEV-BUILD-${{ steps.date.outputs.date }}-lite
+         draft: false
+         prerelease: true
+         tag_name: DEV-BUILD-${{ steps.date.outputs.date }}-lite
 
      - name: Upload Release Asset
        uses: actions/upload-release-asset@v1
