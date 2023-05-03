@@ -61,6 +61,8 @@ jobs:
        pull-requests: write
        contents: write
      steps:    
+     - uses: actions/checkout@v2     
+      
      - name: Set Timezone
        uses: szenius/set-timezone@v1.2
        with:
