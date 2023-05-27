@@ -1,0 +1,14 @@
+name = "FerriteCore (Fabric)"
+filename = "Ferritecore内存优化（会掉帧！）.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "ed6fa9a9365d4e58db6703479a44cc6aed5add2f"
+
+[update]
+[update.curseforge]
+file-id = 4441951
+project-id = 459857

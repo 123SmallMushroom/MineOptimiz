@@ -1,0 +1,14 @@
+name = "Fat Experience Orbs"
+filename = "fat-experience-orbs-2.0.1+1.18-quilt.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/dbigkc0P/versions/RQ6ZRxMk/fat-experience-orbs-2.0.1%2B1.18-quilt.jar"
+hash-format = "sha512"
+hash = "f5a518d3da28e33e5921d3d4613ec1212afb9247ad58779c2d08d0ab201f6d41488800d70b2e7f25b76144197c927aa6aa788a7c8232beea1452f0a698851f27"
+
+[update]
+[update.modrinth]
+mod-id = "dbigkc0P"
+version = "RQ6ZRxMk"

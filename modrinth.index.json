@@ -1,1 +1,1 @@
-{"dependencies":{"forge":"45.0.23","minecraft":"1.19.4"},"files":[],"formatVersion":1,"game":"minecraft","name":"v1.19.4-0.9-pre.1","versionId":"0.9-pre.1"}
+{"dependencies":{"minecraft":"1.19.4","quilt-loader":"0.18.10"},"files":[],"formatVersion":1,"game":"minecraft","name":"v1.19.4-Standard-Beta-0.9.4-01","summary":"回退Quilt Loader到0.18.10；删除JumpQuilt；删除Quilt Kotlin Libraries，并使用Fabric Language Kotlin；升级大部分模组；加入java21-patch（暂仅在MultiMC/PolyMC/PrismLauncher）","versionId":"Standard-Beta-0.9.4-01"}

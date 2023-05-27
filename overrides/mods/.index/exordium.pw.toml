@@ -1,0 +1,14 @@
+name = "Exordium"
+filename = "exordium-fabric-1.0.3-mc1.19.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/DynYZEae/versions/MaOM64pW/exordium-fabric-1.0.3-mc1.19.4.jar"
+hash-format = "sha512"
+hash = "b83a094568c11cc50535ac8506663bb0172ae9874a0fcf1dee5f7a6b096179f48f110bb376c336bbf57f998152e671950780770d3c1b3f8deda346a2bdd0b938"
+
+[update]
+[update.modrinth]
+mod-id = "DynYZEae"
+version = "MaOM64pW"

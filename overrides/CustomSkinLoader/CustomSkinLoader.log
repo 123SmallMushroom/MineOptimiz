@@ -1,0 +1,13 @@
+[2023-05-27 15:51:36] [main/INFO] [CustomSkinLoader Fabric]: "version.json": quilt.zfs://transformed-mod-minecraft.i0:0/version.json
+[2023-05-27 15:51:36] [main/INFO] [CustomSkinLoader Fabric]: MinecraftVersion: {name='1.19.4', world_version='3337', protocol_version='762'}
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_355, mixin: customskinloader.mixin.MixinGuiPlayerTabOverlay, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_3298, mixin: customskinloader.mixin.MixinIResource, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_3300, mixin: customskinloader.mixin.MixinIResourceManager, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_972, mixin: customskinloader.mixin.MixinLayerCape, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_310, mixin: customskinloader.mixin.MixinMinecraft, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_1007, mixin: customskinloader.mixin.MixinRenderPlayer, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_1071, mixin: customskinloader.mixin.MixinSkinManager, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_1071, mixin: customskinloader.mixin.MixinSkinManager$V1, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_1071, mixin: customskinloader.mixin.MixinSkinManager$V2, result: true
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_1046, mixin: customskinloader.mixin.MixinThreadDownloadImageDataV2, result: false
+[2023-05-27 15:51:38] [main/INFO] [CustomSkinLoader Fabric]: target: net.minecraft.class_1046, mixin: customskinloader.mixin.MixinThreadDownloadImageDataV3, result: true

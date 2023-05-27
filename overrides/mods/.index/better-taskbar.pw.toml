@@ -1,0 +1,14 @@
+name = "Better Taskbar"
+filename = "bettertaskbar-fabric-mc1.19.3-1.6.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/gPEcet33/versions/Mr4Fisfa/bettertaskbar-fabric-mc1.19.3-1.6.1.jar"
+hash-format = "sha512"
+hash = "88054d081370b461bc82c34f7e5a8eb7343172336cdcc278c415e457c40027aff20b160d6d74ee8da8b29bc7b4baacebd48495c587fcde1ceb07f40866cf47a8"
+
+[update]
+[update.modrinth]
+mod-id = "gPEcet33"
+version = "Mr4Fisfa"

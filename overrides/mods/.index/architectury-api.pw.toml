@@ -1,0 +1,14 @@
+name = "Architectury"
+filename = "architectury-8.1.80-fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "e19f0bbaf8f27ef7feba77e091103c3bb25ee43f"
+
+[update]
+[update.curseforge]
+file-id = 4521264
+project-id = 419699
