@@ -1,4 +1,4 @@
-name: Build Modpack and Publish Release
+name: Build Modpack and Make Release
 
 on:
   workflow_dispatch:
