@@ -10,6 +10,7 @@ jobs:
   Build-Standard-Modpack:
     runs-on: ubuntu-20.04
     steps:
+      - uses: actions/checkout@v2
           
       - run: git config user.email "${{ github.actor }}@users.noreply.github.com"
         if: ${{ github.repository_owner != 'github-actions' }}
@@ -48,6 +49,7 @@ jobs:
   Build-Lite-Modpack: 
      runs-on: ubuntu-20.04
      steps:
+     - uses: actions/checkout@v2
     
      - name: Set Timezone
        uses: szenius/set-timezone@v1.2
