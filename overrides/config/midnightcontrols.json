@@ -27,10 +27,10 @@
   "mouseSpeed": 25.0,
   "joystickAsMouse": false,
   "unfocusedInput": false,
-  "virtualMouse": false,
+  "virtualMouse": true,
   "virtualMouseSkin": "DEFAULT_LIGHT",
-  "controllerID": 0,
-  "secondControllerID": -1,
+  "controllerID": 0.0,
+  "secondControllerID": -1.0,
   "controllerType": "DEFAULT",
   "mouseScreens": [
     "net.minecraft.client.gui.screen.advancement",

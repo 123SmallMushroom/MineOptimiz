@@ -24,7 +24,8 @@
     },
     {
       "name": "LittleSkin",
-      "type": "Legacy",
+      "type": "CustomSkinAPI",
+      "root": "https://littleskin.cn/csl/",
       "checkPNG": true,
       "skin": "https://littleskin.cn/skin/{USERNAME}.png",
       "model": "auto",
@@ -45,7 +46,7 @@
       "name": "Minecraft Skin",
       "type": "CustomSkinAPI",
       "root": "https://www.mcpeau.com/csl/"
-    },
+    }
   ],
   "enableDynamicSkull": true,
   "enableTransparentSkin": true,

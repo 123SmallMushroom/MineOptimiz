@@ -1,0 +1,14 @@
+name = "Inventory Profiles Next"
+filename = "R ¼üÕûÀí.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "ff6b427a6c01fde1085c98108f60a200b76a1b0f"
+
+[update]
+[update.curseforge]
+file-id = 4469000
+project-id = 495267
