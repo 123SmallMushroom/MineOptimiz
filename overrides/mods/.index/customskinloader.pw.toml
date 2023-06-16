@@ -1,0 +1,14 @@
+name = "CustomSkinLoader"
+filename = "CustomSkinLoader_Fabric-14.16.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "cc332bf1f39bba3c23a1367b58085b1b84e93bdf"
+
+[update]
+[update.curseforge]
+file-id = 4480815
+project-id = 286924

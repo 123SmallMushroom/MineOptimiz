@@ -1,0 +1,14 @@
+name = "[FancyMenu] Animation Maker Tool"
+filename = "fm_animation_maker_1.2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "bd16c240257bf0357cc9a83c54e8fb0c31e240ef"
+
+[update]
+[update.curseforge]
+file-id = 3487037
+project-id = 510307

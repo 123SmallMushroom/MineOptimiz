@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = F:/yee/v1.19.4-DEV-2023-05-14-16-37-full/.minecraft/saves/新的世界
+  is_server = true
+  world = ddns.ganshity.top:28103
 }
 

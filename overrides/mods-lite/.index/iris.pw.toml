@@ -1,0 +1,14 @@
+name = "Iris"
+filename = "iris-mc1.19.4-1.6.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/YL57xq9U/versions/4dFzaTaP/iris-mc1.19.4-1.6.4.jar"
+hash-format = "sha512"
+hash = "5c0f1f0c7f56f7a19bfb14beecf2cf8f6e8330eb3b60ddfc6c87d91dba6fdf3dbfe5053c0e6f78178d12811b523d1d5bdb037bec1cb57b925ffaf1f71cc95df0"
+
+[update]
+[update.modrinth]
+mod-id = "YL57xq9U"
+version = "4dFzaTaP"

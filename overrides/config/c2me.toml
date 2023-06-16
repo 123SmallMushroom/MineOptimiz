@@ -49,6 +49,15 @@ globalExecutorParallelism = "default"
 	# Invalid values will fall back to vanilla default
 	# 
 	chunkStreamVersion = "default"
+	# (Default: false) EXPERIMENTAL FEATURE
+	# This replaces the way your chunks are saved.
+	# Please keep regular backups of your world if you are using this feature,
+	# and report any world issues you encounter with this feature to our GitHub.
+	# 
+	# Whether to use the fast reduced allocation chunk serializer
+	# (may cause incompatibility with other mods)
+	# 
+	gcFreeChunkSerializer = "default"
 	# (Default: false) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -107,7 +116,9 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	asyncScheduling = "default"
-	# (Default: false) Whether to enable this feature
+	# (Default: false) Whether to enable this feature 
+	#  This feature may cause regression when worker parallelism is lower than 4.
+	# 
 	enabled = "default"
 
 [fixes]

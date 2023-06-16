@@ -4,12 +4,12 @@ customization-meta {
   identifier = net.minecraft.class_442
   randomgroup = 1
   biggerthanwidth = 850
-  smallerthanheight = 1081
+  smallerthanheight = 1000
   renderorder = foreground
   randommode = false
   minimummcversion = 1.17.1
   randomonlyfirsttime = false
-  smallerthanwidth = 1921
+  smallerthanwidth = 1000
   biggerthanheight = 472
 }
 
@@ -25,6 +25,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -225
   action = movebutton
@@ -32,49 +37,28 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = mid-centered
-  x = 180
-  action = movebutton
-  y = 93
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-centered
-  x = -224
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 198
-  action = resizebutton
-  height = 20
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = 98
+  x = 116
   action = movebutton
-  y = 93
+  y = -43
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 51
+  width = 99
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = 153
-  action = movebutton
-  y = 93
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
 }
 
 customization {
@@ -82,22 +66,18 @@ customization {
   orientation = mid-centered
   x = -225
   action = movebutton
-  y = -43
+  y = -16
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  orientation = mid-centered
-  x = -225
-  action = movebutton
-  y = 11
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 开始游戏
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  width = 97
-  action = resizebutton
-  height = 20
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = hidebutton
 }
 
 customization {
@@ -116,10 +96,56 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 180
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -225
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = 153
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -225
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 199
+  width = 175
   action = deep_customization_element:title_screen_branding
   actionid = a2eebc4d-106c-40a8-9429-eb086bba2e1a1675414156939
   y = 276
@@ -165,14 +191,55 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = joinserver
-  x = 354
+  buttonaction = openlink
+  x = 356
   width = 100
-  actionid = 4e3a11b6-1cfc-4256-9c01-57071de6f7571675419998657
+  actionid = a67e5465-94e7-4106-aefa-73d470f15cbd1675518043156
   action = addbutton
-  y = 76
-  label = 加入涛之服
-  value = ddns.ganshity.top:28103
+  y = 129
+  label = 其他的整合包下载
+  value = https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/releases
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = false
+  slim = false
+  auto_skin = true
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  showname = false
+  crouching = false
+  follow_mouse = true
+  x = 395
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 8d462da0-72f2-43e4-987f-fa412c9686101686458951710
+  y = 165
+  playername = {"placeholder":"playername"}
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = true
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 16
+  width = 198
+  actionid = f6b531d7-f737-4600-bdec-93a8217cdec71686459465814
+  action = addbutton
+  y = 124
+  label = 开始游戏
+  value = io.123smallmushroom.choosegame
   height = 20
 }
 
@@ -180,14 +247,29 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
-  x = 354
+  buttonaction = opengui
+  x = 356
   width = 100
-  actionid = a67e5465-94e7-4106-aefa-73d470f15cbd1675518043156
+  actionid = 6f33e89d-b26a-4703-9d90-63efab132ae81686460437684
   action = addbutton
-  y = 105
-  label = 其他的整合包下载
-  value = 123smallmushroom.github.io/modpacklist
+  y = 96
+  label = 退出游戏
+  value = io.123smallmushroom.quitgame
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 118
+  width = 96
+  actionid = 27ade121-dc23-47ad-a0c6-d491f884ce201686461874679
+  action = addbutton
+  y = 155
+  label = 模组
+  value = com.terraformersmc.modmenu.gui.ModsScreen
   height = 20
 }
 

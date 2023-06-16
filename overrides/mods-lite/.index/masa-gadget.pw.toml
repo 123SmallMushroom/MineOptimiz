@@ -1,0 +1,14 @@
+name = "MasaGadget"
+filename = "MasaÔöÇ¿.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "8e9e51a3c5bfc1ef2844cfb69e31d9cceefbc9c7"
+
+[update]
+[update.curseforge]
+file-id = 4452991
+project-id = 525510

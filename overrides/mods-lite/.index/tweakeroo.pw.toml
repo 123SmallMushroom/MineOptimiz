@@ -1,0 +1,14 @@
+name = "Tweakeroo"
+filename = "Tweakeroo¸¨ÖúÄ£×é.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b5a51c54db6387a92aef1c2f75621817b291c28c"
+
+[update]
+[update.curseforge]
+file-id = 4444349
+project-id = 297344

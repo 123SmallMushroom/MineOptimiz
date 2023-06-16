@@ -8,7 +8,7 @@
     "arena_memory_allocator": "ASYNC",
     "allow_direct_memory_access": true,
     "enable_memory_tracing": false,
-    "use_advanced_staging_buffers": false,
+    "use_advanced_staging_buffers": true,
     "cpu_render_ahead_limit": 5
   },
   "performance": {
