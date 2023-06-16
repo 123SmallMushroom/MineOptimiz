@@ -37,6 +37,29 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 180
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -225
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = hidebutton
 }
@@ -54,6 +77,14 @@ customization {
   width = 99
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = 153
+  action = movebutton
+  y = 93
 }
 
 customization {
@@ -76,6 +107,21 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -225
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   action = hidebutton
 }
@@ -90,52 +136,6 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  width = 97
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = mid-centered
-  x = 180
-  action = movebutton
-  y = 93
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-centered
-  x = -225
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 199
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = 153
-  action = movebutton
-  y = 93
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  orientation = mid-centered
-  x = -225
-  action = movebutton
-  y = 11
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   width = 97
   action = resizebutton
   height = 20
@@ -200,32 +200,6 @@ customization {
   label = 其他的整合包下载
   value = https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/releases
   height = 20
-}
-
-customization {
-  orientation = top-left
-  copy_client_player = false
-  slim = false
-  auto_skin = true
-  scale = 30
-  headrotationy = 0.0
-  headrotationx = 0.0
-  showname = false
-  crouching = false
-  follow_mouse = true
-  x = 395
-  width = 18
-  parrot_left_shoulder = false
-  action = custom_layout_element:fancymenu_customization_player_entity
-  actionid = 8d462da0-72f2-43e4-987f-fa412c9686101686458951710
-  y = 165
-  playername = {"placeholder":"playername"}
-  bodyrotationx = 0.0
-  parrot = false
-  bodyrotationy = 0.0
-  auto_cape = true
-  is_baby = false
-  height = 54
 }
 
 customization {
