@@ -17,7 +17,7 @@ I:defaultguiscale = '2';
 ##[customization]
 
 B:advancedmode = 'true';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[loading]
@@ -56,7 +56,7 @@ B:show_world_icons = 'true';
 ##[layouteditor]
 
 I:gridsize = '10';
-B:editordeleteconfirmation = 'true';
+B:editordeleteconfirmation = 'false';
 B:showgrid = 'false';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
