@@ -1,1 +1,1 @@
-{"dependencies":{"minecraft":"1.19.4","quilt-loader":"0.18.10"},"files":[],"formatVersion":1,"game":"minecraft","name":"v1.19.4-Lite-Beta-0.9.4-03","summary":"删除了一些在Lite版本的残留文件，更新了大部分模组","versionId":"Lite-Beta-0.9.4-03"}
+{"dependencies":{"minecraft":"1.20.1","fabric-loader":"0.14.21"},"files":[],"formatVersion":1,"game":"minecraft","name":"v1.20.1-Lite-EarlyAlpha-0.10.0-02","summary":"更新到了1.20.1。由于懒得搞，所以可选模组全部趋势了","versionId":"v1.20.1-Lite-EarlyAlpha-0.10.0-02"}
