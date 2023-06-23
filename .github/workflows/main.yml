@@ -73,6 +73,10 @@ jobs:
         cd overrides
         rm servers.dat
         rm wallhaven-e7651w_1600x1024.png
+        rm hhh.jpg
+        rm joinserver.txt
+        rm start.png
+        rm startclick.png
         rm -rf XaeroWaypoints
         rm -rf XaeroWorldMap
         rm -rf fancymenu_data
