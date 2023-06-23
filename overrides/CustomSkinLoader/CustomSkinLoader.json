@@ -24,7 +24,8 @@
     },
     {
       "name": "LittleSkin",
-      "type": "Legacy",
+      "type": "CustomSkinAPI",
+      "root": "https://littleskin.cn/csl/",
       "checkPNG": true,
       "skin": "https://littleskin.cn/skin/{USERNAME}.png",
       "model": "auto",

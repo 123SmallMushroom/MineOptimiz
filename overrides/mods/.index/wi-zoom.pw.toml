@@ -1,0 +1,14 @@
+name = "WI Zoom"
+filename = "WI-Zoom-1.3-MC1.17.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d3877b833dccce21285d27bbd599ccb456f781ba"
+
+[update]
+[update.curseforge]
+file-id = 3379128
+project-id = 349630

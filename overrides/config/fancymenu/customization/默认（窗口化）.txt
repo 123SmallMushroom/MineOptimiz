@@ -4,12 +4,12 @@ customization-meta {
   identifier = net.minecraft.class_442
   randomgroup = 1
   biggerthanwidth = 850
-  smallerthanheight = 1081
+  smallerthanheight = 1000
   renderorder = foreground
   randommode = false
   minimummcversion = 1.17.1
   randomonlyfirsttime = false
-  smallerthanwidth = 1921
+  smallerthanwidth = 1000
   biggerthanheight = 472
 }
 
@@ -25,46 +25,43 @@ customization {
 
 customization {
   identifier = %id=400322%
-  orientation = mid-centered
-  x = -234
-  action = movebutton
-  y = -23
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
 }
 
 customization {
   identifier = %id=604382%
   orientation = mid-centered
-  x = 158
+  x = 136
   action = movebutton
-  y = 94
+  y = 93
 }
 
 customization {
   identifier = %id=400382%
   orientation = mid-centered
-  x = -234
+  x = -214
   action = movebutton
-  y = 30
+  y = 28
 }
 
 customization {
   identifier = %id=400382%
-  width = 200
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=502382%
-  orientation = mid-centered
-  x = 98
-  action = movebutton
-  y = 94
-}
-
-customization {
-  identifier = %id=502382%
-  width = 56
+  width = 198
   action = resizebutton
   height = 20
 }
@@ -72,48 +69,17 @@ customization {
 customization {
   identifier = %id=376382%
   orientation = mid-centered
-  x = 183
+  x = 163
   action = movebutton
-  y = 94
-}
-
-customization {
-  identifier = %id=400298%
-  orientation = mid-centered
-  x = -234
-  action = movebutton
-  y = -47
+  y = 92
 }
 
 customization {
   identifier = %id=400346%
   orientation = mid-centered
-  x = -234
+  x = -214
   action = movebutton
-  y = 4
-}
-
-customization {
-  identifier = %id=502346%
-  orientation = mid-centered
-  x = -132
-  action = movebutton
-  y = 4
-}
-
-customization {
-  orientation = top-left
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = joinserver
-  x = 354
-  width = 100
-  actionid = 4e3a11b6-1cfc-4256-9c01-57071de6f7571675419998657
-  action = addbutton
-  y = 76
-  label = 加入涛之服
-  value = ddns.ganshity.top:28103
-  height = 20
+  y = 1
 }
 
 customization {
@@ -121,13 +87,58 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
-  x = 354
+  x = 336
   width = 100
   actionid = a67e5465-94e7-4106-aefa-73d470f15cbd1675518043156
   action = addbutton
-  y = 105
+  y = 132
   label = 其他的整合包下载
-  value = 123smallmushroom.github.io/modpack
+  value = https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/releases
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = 25
+  width = 198
+  actionid = f6b531d7-f737-4600-bdec-93a8217cdec71686459465814
+  action = addbutton
+  y = 117
+  label = 开始游戏
+  value = io.123smallmushroom.choosegame
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = 335
+  width = 100
+  actionid = 6f33e89d-b26a-4703-9d90-63efab132ae81686460437684
+  action = addbutton
+  y = 100
+  label = 退出游戏
+  value = io.123smallmushroom.quitgame
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 128
+  width = 96
+  actionid = 27ade121-dc23-47ad-a0c6-d491f884ce201686461874679
+  action = addbutton
+  y = 145
+  label = 模组
+  value = com.terraformersmc.modmenu.gui.ModsScreen
   height = 20
 }
 

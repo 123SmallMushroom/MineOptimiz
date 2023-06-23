@@ -1,0 +1,14 @@
+name = "Cloth API (Fabric)"
+filename = "cloth-api-2.1.62.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b9aad3682046c1ab5494f1b15a390a9a6b2f2272"
+
+[update]
+[update.curseforge]
+file-id = 3649189
+project-id = 317121

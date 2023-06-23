@@ -1,1 +1,1 @@
-{"dependencies":{"fabric-loader":"0.14.18","minecraft":"1.17.1"},"files":[],"formatVersion":1,"game":"minecraft","name":"v1.17.1-0.7.16","summary":"Fix some bug","versionId":"0.7.15"}
+{"dependencies":{"fabric-loader":"0.14.21","minecraft":"1.17.1"},"files":[],"formatVersion":1,"game":"minecraft","name":"v1.17.1-Standard-PreRelease-0.7.16-01","summary":"升级Fabric Loader到0.14.21；同步了1.19.4对GUI的相关更改（一些分辨率未适配）；同步了1.19.4对于仓库中Github Workflow的更改","versionId":"v1.17.1-Standard-PreRelease-0.7.16-01"}
