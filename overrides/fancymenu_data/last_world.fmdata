@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = ddns.ganshity.top:28103
+  is_server = false
+  world = D:/Program Files/Minecraft/你被骗了/你又被骗了/我的世界/哈哈哈/学习资料/一骗再骗/v1.19.4-Standard-Dev-2023-07-05-21-54/.minecraft/saves/新的世界
 }
 
