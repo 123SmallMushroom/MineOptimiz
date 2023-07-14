@@ -4,7 +4,7 @@
 	// Whether we should unlimit the hard 60 fps limit placed on the title screen.
 	"unlimitTitleScreenFps": true,
 	"openingAnimation": {
-		"fluidChatOpening": false,
+		"fluidChatOpening": true,
 		"fluidOpenSlideFromBottom": false,
 		"fluidOpenFade": false,
 		"fluidAnimationDuration": 400,
@@ -44,7 +44,7 @@
 		"showFps": false
 	},
 	"customScaling": {
-		"vanillaScaleSlider": false,
+		"modifyVanillaScaleSlider": true,
 		"scale": 1.0
 	},
 	"slotHighlight": {
