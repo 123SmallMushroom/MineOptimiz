@@ -56,7 +56,9 @@
     "system_toast": true,
     "tutorial_toast": false,
     "instant_sneak": true,
-    "prevent_shaders": false
+    "prevent_shaders": false,
+    "steady_debug_hud": true,
+    "steady_debug_hud_refresh_interval": 2
   },
   "notification_settings": {
     "hide_r_s_o_recommendation": false
