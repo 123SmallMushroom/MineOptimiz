@@ -3,7 +3,7 @@ name: Build Modpack
 on:
   push:
     branches:
-      - 1.19.4
+      - 1.20.1
   workflow_dispatch:
 
 jobs:
