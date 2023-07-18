@@ -40,12 +40,12 @@ jobs:
           mv h.txt options.txt
           cd ..
           cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
-          zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-Standard-Dev-${{ steps.date.outputs.date }}.mrpack ./*
+          zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.20.1-Standard-Dev-${{ steps.date.outputs.date }}.mrpack ./*
       
       - uses: actions/upload-artifact@v2
         with:
-          name: v1.19.4-Standard-Dev-${{ steps.date.outputs.date }}.mrpack
-          path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-Standard-Dev-${{ steps.date.outputs.date }}.mrpack
+          name: v1.20.1-Standard-Dev-${{ steps.date.outputs.date }}.mrpack
+          path: /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.20.1-Standard-Dev-${{ steps.date.outputs.date }}.mrpack
      
   Build-Lite-Modpack: 
      runs-on: ubuntu-20.04
@@ -90,10 +90,10 @@ jobs:
         cd config
         rm -rf fancymenu
         cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/    
-        zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.19.4-Lite-Dev-${{ steps.date.outputs.date }}.mrpack ./*
+        zip -r /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/v1.20.1-Lite-Dev-${{ steps.date.outputs.date }}.mrpack ./*
         
      - uses: actions/upload-artifact@v2
        with:
-        name: v1.19.4-Lite-Dev-${{ steps.date.outputs.date }}.mrpack
-        path: v1.19.4-Lite-Dev-${{ steps.date.outputs.date }}.mrpack
+        name: v1.20.1-Lite-Dev-${{ steps.date.outputs.date }}.mrpack
+        path: v1.20.1-Lite-Dev-${{ steps.date.outputs.date }}.mrpack
     
