@@ -1,4 +1,5 @@
 @echo off
+title 整合包打包程序
 echo 在使用此程序之前请不要修改代码库文件夹的名字！
 echo 你需要哪一个版本？
 echo 1 Standard
@@ -11,7 +12,7 @@ if "%edition%"=="3" (
   exit
 )
 cd ..
-xcopy .\Tiao-s-Modpack-For-Tiao-s-Server %temp%\backup-modpack /E /H /C /I
+xcopy .\Tiao-s-Modpack-For-Tiao-s-Server-1.17.1 %temp%\backup-modpack /E /H /C /I
 cd /d %temp%\backup-modpack
 if "%edition%"=="1" (
   del Build.bat
