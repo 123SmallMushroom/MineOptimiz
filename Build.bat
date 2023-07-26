@@ -58,3 +58,4 @@ set /p modpackname=
 rename %savemodpack%\modpack.zip %modpackname%.mrpack
 echo Íê³É£¡
 pause
+exit
