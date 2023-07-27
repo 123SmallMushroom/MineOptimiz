@@ -83,9 +83,6 @@ jobs:
         rm -rf mods
         mv mods-lite mods
         mv h.txt options.txt
-        cd resourcepacks
-        rm -rf clienttweaks汉化
-        cd ..
         cd config
         rm -rf fancymenu
         cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/    
