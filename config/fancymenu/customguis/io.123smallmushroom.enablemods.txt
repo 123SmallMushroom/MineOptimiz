@@ -1,0 +1,3 @@
+identifier = io.123smallmushroom.enablemods
+title = 启用/禁用模组
+allowesc = true

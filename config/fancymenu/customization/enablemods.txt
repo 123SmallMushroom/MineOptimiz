@@ -1,0 +1,113 @@
+type = menu
+
+customization-meta {
+  identifier = io.123smallmushroom.enablemods
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 576
+  action = autoscale
+  basewidth = 960
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.enable1%btnaction_splitter_fm%
+  x = -138
+  width = 124
+  action = addbutton
+  actionid = 5f704409-45d9-4dfb-a999-91b98f1267d91691405537989
+  y = -81
+  label = InventoryProfilesNext
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.testing%btnaction_splitter_fm%
+  x = -137
+  width = 298
+  action = addbutton
+  actionid = 16b15d6a-7033-4c64-b4a1-4c8c52ab78e21691406067503
+  y = 102
+  label = 返回
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 注意：启用或禁用mod以后，需重启才能生效
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 154
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = cf6d79a5-1f8d-4a4e-b0c2-c3de429e75041691406971396
+  y = 37
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.enable2%btnaction_splitter_fm%
+  x = 30
+  width = 124
+  action = addbutton
+  actionid = 7d27b460-8249-4c73-bef3-25623a7608881691410567340
+  y = -81
+  label = Tweakeroo
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 101
+  width = 125
+  action = addbutton
+  actionid = e6884ea9-b3b1-4f49-8aa0-c5e692589a5b1691412841756
+  y = 100
+  label = Malilib
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 270
+  width = 124
+  action = addbutton
+  actionid = 9b493394-5e33-4a2b-997e-2033e8b2f7191691412916348
+  y = 101
+  label = New Button
+  height = 20
+}
+

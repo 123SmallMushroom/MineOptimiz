@@ -1,0 +1,96 @@
+type = menu
+
+customization-meta {
+  identifier = io.123smallmushroom.testing
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 576
+  action = autoscale
+  basewidth = 960
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.titlescreen%btnaction_splitter_fm%
+  x = -117
+  width = 238
+  action = addbutton
+  actionid = 05ba2a89-17e2-4c5c-a31d-e00b2922113b1691285993211
+  y = 63
+  label = 返回
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/issues%btnaction_splitter_fm%
+  x = 0
+  width = 121
+  action = addbutton
+  actionid = b79020d5-337b-43ba-a0d7-1e03185052a91691286194454
+  y = -8
+  label = Bug反馈
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;modpackversion.txt%btnaction_splitter_fm%
+  x = -117
+  width = 238
+  action = addbutton
+  actionid = 8a49b6ab-7253-43ad-ad53-95b724c3dff21691286348169
+  y = -45
+  label = 查看当前整合包版本/相关信息
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.Engtitlescre%btnaction_splitter_fm%
+  x = -117
+  width = 238
+  action = addbutton
+  actionid = 380c984c-5560-43f6-bb2b-984e8be1e7da1691288875596
+  y = -85
+  label = 英文标题屏幕（很多功能未实现）
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.enablemods%btnaction_splitter_fm%
+  x = -117
+  width = 110
+  action = addbutton
+  actionid = 9f9ac270-7fc2-4016-8201-6725ca5c976b1691405051648
+  y = -8
+  label = 启用/禁用可选模组
+  height = 20
+}
+
