@@ -1,12 +1,11 @@
 {
   "modstate": true,
-  "persistFogSettings": true,
-  "disableAirFog": true,
+  "persistFogSettings": false,
+  "disableAirFog": false,
   "disableWaterFog": false,
   "disableLavaFog": false,
   "disablePowderedSnowFog": false,
   "disableThickFog": true,
   "disableSkyFog": false,
-  "brightness": 15,
   "hudrender": true
 }

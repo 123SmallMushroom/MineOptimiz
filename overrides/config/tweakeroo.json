@@ -1,14 +1,14 @@
 {
   "Fixes": {
-    "elytraFix": true,
-    "macHorizontalScroll": true,
-    "ravagerClientBlockBreakFix": true
+    "elytraFix": false,
+    "macHorizontalScroll": false,
+    "ravagerClientBlockBreakFix": false
   },
   "Generic": {
     "carpetAccuratePlacementProtocol": true,
     "clientPlacementRotation": true,
-    "fastLeftClickAllowTools": true,
-    "fastPlacementRememberOrientation": false,
+    "fastLeftClickAllowTools": false,
+    "fastPlacementRememberOrientation": true,
     "freeCameraPlayerInputs": false,
     "freeCameraPlayerMovement": false,
     "handRestockPre": true,
@@ -77,7 +77,7 @@
     "structureBlockMaxSize": 128,
     "toolSwitchableSlots": "1-9",
     "toolSwitchIgnoredSlots": "",
-    "zoomFov": 29.00999999999999
+    "zoomFov": 30.0
   },
   "GenericHotkeys": {
     "accurateBlockPlacementInto": {
@@ -132,19 +132,10 @@
       "keys": ""
     },
     "freeCameraPlayerInputs": {
-      "keys": "F8",
-      "settings": {
-        "activate_on": "BOTH",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": true,
-        "cancel": true
-      }
+      "keys": ""
     },
     "freeCameraPlayerMovement": {
-      "keys": "F9"
+      "keys": ""
     },
     "hotbarScroll": {
       "keys": ""
@@ -219,7 +210,7 @@
       "keys": ""
     },
     "zoomActivate": {
-      "keys": "N"
+      "keys": ""
     }
   },
   "Internal": {
@@ -358,7 +349,7 @@
       }
     },
     "disableBossFog": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
         "keys": ""
       }
@@ -454,7 +445,7 @@
       }
     },
     "disableNetherFog": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
         "keys": ""
       }
@@ -484,13 +475,13 @@
       }
     },
     "disablePortalGuiClosing": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
         "keys": ""
       }
     },
     "disableRainEffects": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
         "keys": ""
       }
@@ -855,7 +846,7 @@
       "keys": ""
     },
     "tweakFakeSneaking": {
-      "keys": "SEMICOLON"
+      "keys": ""
     },
     "tweakFakeSneakPlacement": {
       "keys": ""
@@ -879,10 +870,10 @@
       "keys": ""
     },
     "tweakFreeCamera": {
-      "keys": "F10"
+      "keys": ""
     },
     "tweakGammaOverride": {
-      "keys": "0"
+      "keys": ""
     },
     "tweakHandRestock": {
       "keys": ""
@@ -891,10 +882,10 @@
       "keys": ""
     },
     "tweakHoldAttack": {
-      "keys": "RIGHT_ALT"
+      "keys": ""
     },
     "tweakHoldUse": {
-      "keys": "KP_0"
+      "keys": ""
     },
     "tweakHotbarScroll": {
       "keys": ""
@@ -990,7 +981,7 @@
       "keys": ""
     },
     "tweakSignCopy": {
-      "keys": "KP_DECIMAL"
+      "keys": ""
     },
     "tweakSnapAim": {
       "keys": ""
@@ -1023,7 +1014,7 @@
       "keys": ""
     },
     "tweakZoom": {
-      "keys": "DELETE"
+      "keys": ""
     }
   }
 }

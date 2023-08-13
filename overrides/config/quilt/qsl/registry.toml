@@ -14,7 +14,7 @@
 	mod_protocol_name = "My Quilt Modpack"
 	# Message displayed for players joining with clients incompatible with Registry Sync. Supports strings and Minecraft's JSON text format.
 	# default: {"translate":"qsl.registry_sync.unsupported_client","fallback":"Unsupported (vanilla?) client!\nThis server requires modded client to join!"}
-	missing_registry_sync_message = "Unsupported (vanilla?) client!\nThis server requires a modded client to join!"
+	missing_registry_sync_message = "{\"translate\":\"qsl.registry_sync.unsupported_client\",\"fallback\":\"Unsupported (vanilla?) client!\\nThis server requires modded client to join!\"}"
 	# Top part of the message displayed for players joining with incompatible clients. Supports strings and Minecraft's JSON text format.
 	# default: {"translate":"qsl.registry_sync.failed_sync","fallback":"Failed to synchronize client with the server!\nThis can happen when client's and server's mods don't match.\n"}
 	mismatched_entries_top_message = "{\"translate\":\"qsl.registry_sync.failed_sync\",\"fallback\":\"Failed to synchronize client with the server!\\nThis can happen when client's and server's mods don't match.\\n\"}"

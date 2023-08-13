@@ -13,6 +13,11 @@ customization-meta {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -24,10 +29,10 @@ customization {
 
 customization {
   identifier = %id=504306%
-  orientation = mid-right
-  x = -342
+  orientation = mid-centered
+  x = -102
   action = movebutton
-  y = -7
+  y = -15
 }
 
 customization {

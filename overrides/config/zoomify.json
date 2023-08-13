@@ -1,6 +1,6 @@
 {
     "zoomify_gui_category_behaviour": {
-        "zoomify_gui_initialzoom_name": 4,
+        "zoomify_gui_initialzoom_name": 3,
         "zoomify_gui_zoomintime_name": 0.25,
         "zoomify_gui_zoomouttime_name": 0.25,
         "zoomify_gui_zoomintransition_name": 12,

@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -17,14 +22,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = opengui
+  buttonaction = opengui;net.minecraft.class_526%btnaction_splitter_fm%
   x = -78
   width = 156
-  actionid = 350bcd79-e81c-4ebe-89e0-22f27f43961a1686459089834
   action = addbutton
+  actionid = 350bcd79-e81c-4ebe-89e0-22f27f43961a1686459089834
   y = -112
   label = 单人游戏
-  value = net.minecraft.class_526
   height = 20
 }
 
@@ -32,14 +36,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = opengui
+  buttonaction = opengui;net.minecraft.class_500%btnaction_splitter_fm%
   x = -78
   width = 155
-  actionid = 59737c62-6760-4d82-989f-d56f0a9ddcef1686459113219
   action = addbutton
+  actionid = 59737c62-6760-4d82-989f-d56f0a9ddcef1686459113219
   y = -73
   label = 多人游戏
-  value = net.minecraft.class_500
   height = 20
 }
 
@@ -47,29 +50,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = opengui
-  x = -77
-  width = 156
-  actionid = 88e401b6-94e6-4dbc-8617-b9dd2227a6b61686459335370
-  action = addbutton
-  y = 7
-  label = 返回菜单
-  value = net.minecraft.class_442
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = joinserver
+  buttonaction = opengui;io.123smallmushroom.titlescreen%btnaction_splitter_fm%
   x = -78
   width = 156
-  actionid = 999fc0f7-ba83-4353-b132-17e8a0fe6d001686459615801
   action = addbutton
-  y = -34
-  label = 加入涛之服
-  value = ddns.ganshity.top:28103
+  actionid = 88e401b6-94e6-4dbc-8617-b9dd2227a6b61686459335370
+  y = 60
+  label = 返回菜单
   height = 20
 }
 

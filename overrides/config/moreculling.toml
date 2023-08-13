@@ -9,12 +9,18 @@ useItemFrameLOD = true
 itemFrameLODRange = 384
 useItemFrame3FaceCulling = true
 itemFrame3FaceCullingRange = 12.0
-leavesCullingMode = "CHECK"
+leavesCullingMode = "FAST"
 leavesCullingAmount = 2
-includeMangroveRoots = true
+includeMangroveRoots = false
 powderSnowCulling = true
 entityModelCulling = false
 useOnModdedBlocksByDefault = true
 
 [modCompatibility]
+bountiful = true
+travelersbackpack = true
+betterfurnacesreforged = true
+waystones = true
+advancednetherite = true
+friendsandfoes = true
 minecraft = true

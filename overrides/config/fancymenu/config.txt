@@ -22,7 +22,7 @@ B:showcustomizationbuttons = 'false';
 
 ##[loading]
 
-B:allowgameintroskip = 'true';
+B:allowgameintroskip = 'false';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 B:preloadanimations = 'false';
@@ -70,4 +70,4 @@ F:uiscale = '2.0';
 
 ##[compatibility]
 
-B:allow_level_registry_interactions = 'false';
+B:allow_level_registry_interactions = 'true';

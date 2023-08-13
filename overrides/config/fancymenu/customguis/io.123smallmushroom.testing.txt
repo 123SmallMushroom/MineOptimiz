@@ -1,0 +1,3 @@
+identifier = io.123smallmushroom.testing
+title = 实验性功能
+allowesc = true
