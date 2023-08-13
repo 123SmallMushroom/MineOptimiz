@@ -39,7 +39,7 @@ jobs:
           rm -rf mods-lite
           mv h.txt options.txt
           cd ..
-          cd /home/runner/work/Tiao-s-Modpack-For-Tiao-s-Server/Tiao-s-Modpack-For-Tiao-s-Server/
+          cd /home/runner/work/MineOptimiz/MineOptimiz/
           zip -r /home/runner/work/MineOptimiz/MineOptimiz/v1.17.1-Standard-Dev-${{ steps.date.outputs.date }}.mrpack ./*
       
       - uses: actions/upload-artifact@v2
